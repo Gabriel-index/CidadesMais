@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.topo{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    text-decoration: none;
+}
+.entrar-button{
+    background-color: rgb(248, 237, 237);
+    
+}
+.baixar-agora-button{
+    background-color:rgb(0, 102, 255);
+    padding: 30px;
+}
+
+
