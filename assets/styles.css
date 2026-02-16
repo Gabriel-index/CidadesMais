@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    background-color: white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7EBF3;
+    margin: 0 100px;
+}
+
+.simbolo_mais {
+    color: #2C6BED;
+}
+
+.teste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+header li {
+    list-style: none;
+    color: #0E121B;
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+li:hover {
+    color: #2C6BED;
+    
+}
+
+#pg_atual {
+    color: #2C6BED;
+}
+
+a {
+    text-decoration: none;
+}
+
+.entrar {
+    color: #2C6BED;
+    border: 1px solid #D5E1FB;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.baixar_agora {
+    color: white;
+    background-color: #2C6BED;
+    border: 1px solid #2C6BED;
+    border-radius: 15px;
+    padding: 15px;
+}
+/*Footer*/
+footer {
+    margin: 0 100px;
+}
+.footer_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div img {
+    max-width: 55px;
+    max-height: 55px;
+
+}
+
+.footer_sobre {
+    max-width: 170px;
+}
+
+.footer_logo {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer p {
+    color: #4E6797;
+    line-height: 22px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4E6797;
+}
+
+
+.app_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.icone {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 30px;
+}
+
+
+
+
+
+

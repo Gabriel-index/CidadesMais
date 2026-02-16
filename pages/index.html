@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cidades +</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <img src="" alt="Logo do Cidades+">
-        <h1>Cidades+</h1>
-            <ul>
-                <a href="#"><li>Porque usar?</li></a>
-                <a href="#"><li>Como funciona</li></a>
-                <a href="#"><li>Impacto</li></a>
-                <a href="#"><li>Entrar</li></a>
-                <a href="#"><li>Baixar agora</li></a>
-            </ul>
+    <header class="header_index">
+        <div class="teste">
+            <img src="/img/logo_cdd.png" alt="Logo do Cidades+">
+            <h1>Cidades<span class="simbolo_mais">+</span></h1>
+        </div>
+                <ul>
+                    <a href="#"><li id="pg_atual">Início</li></a>
+                    <a href="#"><li>Porque usar?</li></a>
+                    <a href="#"><li>Como funciona</li></a>
+                    <a href="#"><li>Impacto</li></a>
+                    <a href="#"><li class="entrar">Entrar</li></a>
+                    <a href="#"><li class="baixar_agora">Baixar agora</li></a>
+                </ul>
     </header>
     <main>
         <!--Parte superior-->
@@ -112,23 +118,40 @@
     </main>
 <hr>
     <footer>
-            <img src="imagens/logo_footer.png" alt="Logo do Cidades+">
-        <h3>Cidades+</h3>
-        <p>Transformando a gestão urbana através da colaboração direta entre cidadãos e poder público.</p>
-        <h3>App</h3>
-        <ul>
-            <li><a href="">Baixar para IOS</a></li>
-            <li><a href="">Baixar para Android</a></li>
-        </ul>
-        <h3>Institucional</h3>
-        <ul>
-            <li><a href="">Sobre nós</a></li>
-            <li><a href="">Contato</a></li>
-        </ul>
-        <h3>Social</h3>
-        <p><a href=""><img src="imagens/icone_facebook.png" alt="icone"></a></p>
-        <p><a href=""><img src="imagens/icone_instagram.png" alt="icone"></a></p>
-        <p><a href=""><img src="imagens/icone_linkedin.png" alt="icone"></a></p>
+            
+        <section class="footer_section">
+            <div class="footer_sobre">
+                <div class="footer_logo">
+                    <img src="/img/logo_cdd.png" alt="Logo do Cidades+">
+                    <h3>Cidades<span class="simbolo_mais">+</span></h3>
+                </div>
+                <p>Transformando a gestão urbana através da colaboração direta entre cidadãos e poder público.</p>
+            </div>
+            <div class="app_footer">
+                <div>
+                    <h3>App</h3>
+                </div>
+                    <ul>
+                        <li><a href="#">Baixar para IOS</a></li>
+                        <li><a href="#">Baixar para Android</a></li>
+                    </ul>
+            </div>
+            <div>
+                <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="">Sobre nós</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <div class="icons_footer">
+                    <p class="icone"><a href="#"><img src="/img/linkedin_icon.png" alt="icone"></a></p>
+                    <p class="icone"><a href="#"><img src="/img/Instagram_icon.png" alt="icone"></a></p>
+                    <p class="icone"><a href="#"><img src="/img/youtube_icon.png" alt="icone"></a></p>
+                </div>
+            </div>
+        </section>
         <p>&copy; 2026 Cidades+. Todos os direitos reservados.</p>
         <nav>
         <ul>
