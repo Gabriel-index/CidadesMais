@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 160px;
     padding: 0;
     text-decoration: none;
 }
@@ -19,7 +19,6 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #E7EBF3;
-    margin: 0 100px;
 }
 
 .simbolo_mais {
@@ -73,10 +72,22 @@ a {
     border-radius: 15px;
     padding: 15px;
 }
-/*Footer*/
-footer {
-    margin: 0 100px;
+/*Main*/
+/*Primeira parte*/
+.tec_que_resolve {
+    background-color: #F8FAFC;
+    margin: 0;
 }
+.tick_disponivel {
+    background-color: #E4ECFB;
+    color: #2C6BED;
+    padding: 8px 16px;
+    max-width: 275px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/*Footer*/
 .footer_section {
     display: flex;
     flex-direction: row;
@@ -98,8 +109,14 @@ footer div img {
     display: flex;
 }
 
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
 footer li {
     list-style: none;
+    margin: 5px;
 }
 
 footer p {
@@ -112,25 +129,19 @@ footer a {
     color: #4E6797;
 }
 
-
-.app_footer {
-    display: flex;
-    flex-direction: column;
+footer a:hover {
+    color: #202b3f;
 }
 
-.icons_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+footer p img {
+    max-width: 25px;
+    max-height: 35px;
+    margin: 5px;
 }
 
-.icone {
-    max-width: 15px;
-    max-height: 15px;
-    margin: 30px;
+.fim_footer {
+    text-align: center;
 }
-
 
 
 
