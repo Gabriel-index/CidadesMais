@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0 160px;
+    margin: 0;
     padding: 0;
     text-decoration: none;
 }
@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #E7EBF3;
+    padding: 0 160px;
 }
 
 .simbolo_mais {
@@ -78,13 +79,13 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #F8FAFC;
+    border-bottom: 2px solid #E7EBF3;
+    
 }
-
 
 .tec_que_resolve {
     background-color: #F8FAFC;
-    margin-top: 125px;
-    margin-left: 160px;
+    margin: 125px 160px 0 160px;
 }
 
 .tick_disponivel {
@@ -130,6 +131,8 @@ a {
 .impacto_na_cidade {
     display: flex;
     justify-content: space-around;
+    margin: 60px;
+    
 }
 
 .title_impactos {
@@ -163,13 +166,17 @@ a {
 
 .section_pq_usar_cidades {
     background-color: #F8FAFC;
-    margin-top: 70px;
+    padding: 15px;
+    border-bottom: 2px solid #E7EBF3;
+}
+
+.cont_pq_usar {
+    margin: 0 160px 0 160px;
 }
 
 .h4_pq_usar {
     text-align: center;
     color: #2C6BED;
-    margin-top: 0;
 }
 
 .voz_poder {
@@ -225,6 +232,10 @@ a {
     align-items: center;
 }
 
+.cont-footer {
+    margin: 0 160px;
+}
+
 footer div img {
     max-width: 55px;
     max-height: 55px;
@@ -272,6 +283,8 @@ footer p img {
 .fim_footer {
     text-align: center;
 }
+
+
 
 
 
