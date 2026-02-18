@@ -74,17 +74,147 @@ a {
 }
 /*Main*/
 /*Primeira parte*/
+.parte_superior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8FAFC;
+}
+
+
 .tec_que_resolve {
     background-color: #F8FAFC;
-    margin: 0;
+    margin-top: 125px;
+    margin-left: 160px;
 }
+
 .tick_disponivel {
     background-color: #E4ECFB;
     color: #2C6BED;
     padding: 8px 16px;
-    max-width: 275px;
+    max-width: 220px;
+    font-size: 13px;
     border-radius: 25px;
     font-weight: bold;
+}
+
+.h2_tec_que_resolve {
+    font-size: 45px;
+    font-weight: 900px;
+    line-height: 10px;
+}
+
+.p_tec {
+    color: #4E6797;
+    max-width: 335px;
+    line-height: 23px;
+}
+
+.img_baixar {
+    max-width: 170px;
+    max-height: 59px;
+}
+
+.mock_celular {
+    max-height: 750px;
+    margin-right: 160px;
+}
+
+/*Impacto na sua cidade*/
+
+.h4_impacto {
+    color: #9CA3AF;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.impacto_na_cidade {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_impactos {
+    color: #4E6797;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+}
+
+.valores_impactos {
+    color: #0E121B;
+    text-align: center;
+    font-size: 56px;
+    font-weight:900;
+    margin: 5px;
+    padding: 0;
+}
+
+#problemas_resolvidos_valor {
+    color: #2C6BED;
+}
+
+.descricao_impacto {
+    color: #2ECC71;
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+}
+
+/*Por que usar o Cidades+*/
+
+.section_pq_usar_cidades {
+    background-color: #F8FAFC;
+    margin-top: 70px;
+}
+
+.h4_pq_usar {
+    text-align: center;
+    color: #2C6BED;
+    margin-top: 0;
+}
+
+.voz_poder {
+    margin: 0;
+    color: #0E121B;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.frase_poder {
+    color: #4E6797;
+    text-align: center;
+}
+
+.div_cards_pq {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards_pq {
+    background-color: white;
+    min-width: 400px;
+    margin: 25px;
+    min-height: 250px;
+    border: 1px solid #E7EBF3;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icones_pq {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.title_cards_pq {
+    font-size: 30px;
+}
+
+.descricao_cards_pq {
+    max-width: 300px;
+    color: #4E6797;
 }
 
 /*Footer*/

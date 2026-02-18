@@ -28,65 +28,77 @@
     </header>
     <main>
         <!--Parte superior-->
-        <section class="tec_que_resolve">
-                <p class="tick_disponivel">DISPONÍVEL PARA IOS E ANDROID</p>
-                <h2>Tecnologia que</h2>
-                <h2>resolve o que a</h2>
-                <h2>cidade precisa</h2>
-                <p>Una-se a milhares de cidadãos. Relate problemas, proponha soluções e acompanhe melhorias em tempo real, direto do seu celular</p>
-                <div>
-                <button href="#">App Store</button>
-                <button href="#">Google Play</button>
-                </div>
-        </section>
-        <aside>
-            <img src="#" alt="Mockup de um celular, que mostra o aplicativo Cidades+">
-        </aside>
+        <div class="parte_superior">
+            <section class="tec_que_resolve">
+                    <p class="tick_disponivel">DISPONÍVEL PARA IOS E ANDROID</p>
+                        <section>
+                            <h2 class="h2_tec_que_resolve">Tecnologia que</h2>
+                            <h2 class="h2_tec_que_resolve">resolve o que a</h2>
+                            <h2 class="h2_tec_que_resolve">cidade precisa</h2>
+                        </section>
+                    <p class="p_tec">Una-se a milhares de cidadãos. Relate problemas, proponha soluções e acompanhe melhorias em tempo real, direto do seu celular</p>
+                    <div class="div_apps">
+                        <a href="#"><img class="img_baixar" src="/img/play_store.png" alt="Baixe na Play store"></a>
+                        <a href="#"><img class="img_baixar" src="/img/app_store.png" alt="Baixe na ApllE store"></a>
+                    </div>
+            </section>
+            <aside>
+                <img class="mock_celular" src="/img/mock.png" alt="Mockup de um celular, que mostra o aplicativo Cidades+">
+            </aside>
+        </div>
         <!--Impacto na sua Cidade-->
-        <section>
-            <h4>Impacto na sua Cidade</h4>
-            <div>
-                 <p>Problemas Resolvidos</p>
-                 <h4>12.542</h4>
-                 <p>>+12% este mês</p>
+        <h4 class="h4_impacto">IMPACTO NA SUA CIDADE</h4>
+        <section class="impacto_na_cidade">
+            <div class="problemas_resolvidos">
+                 <p class="title_impactos">Problemas Resolvidos</p>
+                 <h4  class="valores_impactos" id="problemas_resolvidos_valor">12.542</h4>
+                 <p class="descricao_impacto">+12% este mês</p>
             </div>
             <div>
-                <p>Cidadãos Ativos</p>
-                <h4>85.280</h4>
-                <p>Comunidade em crescimento</p>
+                <p class="title_impactos">Cidadãos Ativos</p>
+                <h4 class="valores_impactos">85.280</h4>
+                <p class="descricao_impacto">Comunidade em crescimento</p>
             </div>
             <div>
-                <p>Cidades Atendidas</p>
-                <h4>48</h4>
-                <p>Em todo o Brasil</p>
+                <p class="title_impactos">Cidades Atendidas</p>
+                <h4 class="valores_impactos">48</h4>
+                <p class="descricao_impacto">Em todo o Brasil</p>
             </div>
         </section>
         <!--Por que usar o Cidades+-->
-        <section>
-            <h4>POR QUE USAR O CIDADES+</h4>
-            <h2>Sua voz tem poder real</h2>
-            <p>Esqueça a burocracia. O Cidades+ conecta você diretamente com quem resolve os
+        <section class="section_pq_usar_cidades">
+            <h4 class="h4_pq_usar">POR QUE USAR O CIDADES+</h4>
+            <h2 class="voz_poder">Sua voz tem poder real</h2>
+            <p class="frase_poder">Esqueça a burocracia. O Cidades+ conecta você diretamente com quem resolve os
             problemas da sua região.</p>
-            <div>
-                <img src="" alt="Icone de olho">
-                <h3>Tranparência Total</h3>
-                <p>Acompanhe cada etapa do seu
-                relato. Saiba quando foi visualizado,
-                encaminhado e resolvido.</p>
-            </div>
-            <div>
-                <img src="" alt="Icone de união de pessoas">
-                <h3>Ação coletiva</h3>
-                <p>Apoie propostas de outros cidadãos
-                e aumente a relevância das
-                melhorias no seu bairro.</p>
-            </div>
-            <div>
-                <img src="" alt="Icone de uma folha">
-                <h3>Cidades Sustentáveis</h3>
-                <p>Proponha soluções ecológicas,
-                como novas ciclovias e áreas verdes
-                para sua comunidade.</p>
+            <div class="div_cards_pq">
+                <div class="cards_pq">
+                    <div>
+                        <img class="icones_pq" src="/img/olho.png" alt="Icone de olho">
+                        <h3 class="title_cards_pq">Tranparência Total</h3>
+                    </div>
+                    <p class="descricao_cards_pq">Acompanhe cada etapa do seu
+                    relato. Saiba quando foi visualizado,
+                    encaminhado e resolvido.</p>
+                </div>
+                <div class="cards_pq">
+                    <div>
+                        <img class="icones_pq" src="/img/pessoas.png" alt="Icone de união de pessoas">
+                        <h3 class="title_cards_pq">Ação coletiva</h3>
+                    </div>
+                    <p class="descricao_cards_pq">Apoie propostas de outros cidadãos
+                    e aumente a relevância das
+                    melhorias no seu bairro.</p>
+                </div>
+                <div class="cards_pq">
+                    <div>
+                        <img class="icones_pq" src="/img/folha.png" alt="Icone de uma folha">
+                        <h3 class="title_cards_pq">Cidades Sustentáveis</h3>
+                    </div>
+                    <p class="descricao_cards_pq">Proponha soluções ecológicas,
+                    como novas ciclovias e áreas verdes
+                    para sua comunidade.</p>
+                </div>
             </div>
         </section>
         <!--Como funciona o aplicativo-->
