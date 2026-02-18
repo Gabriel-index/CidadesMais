@@ -171,7 +171,7 @@ a {
 }
 
 .cont_pq_usar {
-    margin: 0 160px 0 160px;
+    margin: 0 160px;
 }
 
 .h4_pq_usar {
@@ -183,7 +183,7 @@ a {
     margin: 0;
     color: #0E121B;
     text-align: center;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -222,6 +222,34 @@ a {
 .descricao_cards_pq {
     max-width: 300px;
     color: #4E6797;
+}
+
+/*Como Funciona o Aplicativo*/
+.section_como_funciona {
+    border-bottom: 2px solid #E7EBF3;
+}
+
+.cont_como_funciona {
+    margin: 0 160px;
+}
+
+.div_cards_como_funciona {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.card_como_funciona {
+    max-width: 400px;
+    margin: 25px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.icone_como_funciona {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 /*Footer*/
