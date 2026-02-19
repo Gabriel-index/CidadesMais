@@ -135,6 +135,13 @@ a {
     
 }
 
+.teste2{
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #E7EBF3;
+    padding: 0 96px;
+}
+
 .title_impactos {
     color: #4E6797;
     text-align: center;

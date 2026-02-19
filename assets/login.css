@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*Main*/
+/*Lado esquerdo*/
+.fundo_login {
+    background-image: url(/img/Fundo_login.png);
+    max-width: 780px;
+    min-height: 960px;
+    display: flex;
+    align-items: end;
+}
+
+.cont-login {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_esquerdo_login {
+    padding: 0 80px 160px 80px;
+}
+
+.h1_login {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 56px;
+}
+
+.h4_login {
+    color: white;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 23px;
+}
+
+/*Lado direito*/
+
+.section_login {
+    margin: 60px 0 0 100px;
+
+}
+
+.h2_entrar_login {
+    font-size: 36px;
+    font-weight: 900;
+    color: #2F3640;
+}
+
+.acessar_sua_conta {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 23px;
+}
+
+.img_entrar_login {
+    max-width: 300px;
+}
+
+.traco_login {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 15px;
+
+}
+
+.ou_e-mail_login {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
