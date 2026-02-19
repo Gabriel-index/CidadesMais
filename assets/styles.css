@@ -100,7 +100,7 @@ a {
 
 .h2_tec_que_resolve {
     font-size: 45px;
-    font-weight: 900px;
+    font-weight: 900;
     line-height: 10px;
 }
 
@@ -199,7 +199,8 @@ a {
 
 .cards_pq {
     background-color: white;
-    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
     margin: 25px;
     min-height: 250px;
     border: 1px solid #E7EBF3;
