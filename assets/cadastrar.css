@@ -143,12 +143,12 @@ body {
 
 .nao_tem_conta {
     color: rgba(47, 54, 64, 0.6);
-    margin: 45px 192px;
+    margin: 45px 0 0 192px;
 }
 
 .concorda_cadastrar {
     color: rgba(47, 54, 64, 0.4);
-    margin-top: 120px;
+    margin-top: 10px;
     margin-left: 70px;
     max-width: 500px;
     text-align: center;

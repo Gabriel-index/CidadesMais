@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Public Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
     padding: 0;
     text-decoration: none;
 }
-
 /*Header*/
 header {
     background-color: white ;
@@ -92,7 +92,7 @@ a {
     background-color: #E4ECFB;
     color: #2C6BED;
     padding: 8px 16px;
-    max-width: 220px;
+    max-width: 255px;
     font-size: 13px;
     border-radius: 25px;
     font-weight: bold;
@@ -320,9 +320,47 @@ footer p img {
     text-align: center;
 }
 
+/*Media NOTEBOOK*/
+@media (min-width:1254px) and (max-width:1679px) {
+.cont_pq_usar {
+    margin: 15px;
+}
 
+.cards_pq {
+    min-width: 320px;
+}
+}
 
+/*Media TABLET*/
+@media (min-width:769px) and (max-width:1253px) {
+header {
+    padding: 0 30px;
+}
 
+.div_h2_index {
+    min-width: 400px;
+}
 
+.tec_que_resolve {
+    margin: 75px 150px 75px 75px;
+}
 
+.mock_celular {
+    max-height: 590px;
+    margin: 0;
+}
 
+.cont_pq_usar {
+    margin: 15px;
+}
+
+.cards_pq {
+    text-align: center;
+    max-height: 500px;
+}
+}
+
+/*Media CELULAR*/
+@media (max-width:768px) {
+
+}
