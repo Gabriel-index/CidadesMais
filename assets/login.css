@@ -15,7 +15,8 @@ body {
 .fundo_login {
     background-image: url(/img/Fundo_login.png);
     max-width: 780px;
-    min-height: 960px;
+    min-height: 955px;
+    height: 100%;
     display: flex;
     align-items: end;
 }
@@ -47,7 +48,7 @@ body {
 /*Lado direito*/
 
 .section_login {
-    margin: 60px 0 0 100px;
+    margin: 60px 0 0 230px;
 
 }
 
@@ -66,6 +67,7 @@ body {
 
 .img_entrar_login {
     max-width: 300px;
+    cursor: pointer;
 }
 
 .traco_login {
@@ -82,4 +84,80 @@ body {
     line-height: 0px;
     font-size: 15px;
     margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+.section_login hr { 
+    height: 1px;
+    width: 33%;
+    margin-top: 13px;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_login label {
+    font-weight: bold;
+    color: #2F3640;
+}
+
+.form_login input {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 1px solid #E5E7EB;
+    max-width: 580px;
+}
+
+.section_login a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2C6BED;
+}
+
+.section_login a:hover {
+    color: #5b8ae9;
+    
+}
+
+.form_login button {
+    padding: 15px;
+    max-width: 620px;
+    background-color: #2C6BED;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px rgba(0,0,0,0.5);
+}
+
+.form_login button:hover {
+    background-color: #5b8ae9;
+    cursor: pointer;
+}
+
+.nao_tem_conta {
+    color: rgba(47, 54, 64, 0.6);
+    margin: 45px 192px;
+}
+
+.concorda_login {
+    color: rgba(47, 54, 64, 0.4);
+    margin-top: 120px;
+    margin-left: 70px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.concorda_login a {
+    color: rgba(47, 54, 64, 0.4);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.concorda_login a:hover {
+    color: #2F3640;
 }
