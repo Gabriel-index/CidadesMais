@@ -7,155 +7,174 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    text-decoration: none;
-}
-/*Header*/
-header {
-    background-color: white ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #E7EBF3;
-    padding: 0 160px;
-}
-
-.simbolo_mais {
-    color: #2C6BED;
-}
-
-.teste {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    max-width: 80px;
-    max-height: 80px;
-}
-
-header li {
-    list-style: none;
-    color: #0E121B;
-    display: inline-block;
-    padding: 0 15px;
-
-}
-
-li:hover {
-    color: #2C6BED;
-    
-}
-
-#pg_atual {
-    color: #2C6BED;
 }
 
 a {
     text-decoration: none;
 }
 
-.entrar {
-    color: #2C6BED;
-    border: 1px solid #D5E1FB;
-    border-radius: 15px;
-    padding: 12px;
+ul,li {
+    list-style: none;
+}
+/*Header*/
+.header_index {
+    padding: 0 12px;
+    border-bottom: 1px solid #E7EBF3;
 }
 
-.baixar_agora {
+.header_mobile_index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_name_index {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_cdd_header {
+    max-width: 16%;
+}
+
+.h1_index {
+    font-size: 27px;
+}
+
+.simbolo_mais {
+    color: #2C6BED;
+}
+
+.icon_menu_index {
+    max-height: 50px;
+}
+
+.material-symbols-outlined {
+    margin-top: 5%;
+}
+
+.header_index ul {
+    list-style: none;
+    text-align: center;
+}
+
+.header_index li {
+    padding: 8px;
+}
+
+.header_index li a {
+    text-decoration: none;
+    color: #0E121B;
+}
+
+.header_index li.entrar_botao_index a {
+    color: #2C6BED;
+    font-weight: 700;
+    border: 2px solid #D5E1FB;
+    border-radius: 12px;
+    padding: 10px 64px;
+}
+
+li.baixar_agora {
+    margin-top: 15px;
+}
+
+.header_index li.baixar_agora a {
     color: white;
     background-color: #2C6BED;
-    border: 1px solid #2C6BED;
-    border-radius: 15px;
-    padding: 15px;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 12px 64px;
 }
+
 /*Main*/
-/*Primeira parte*/
+/* Parte superior */
+
 .parte_superior {
-    display: flex;
-    justify-content: space-between;
     background-color: #F8FAFC;
     border-bottom: 2px solid #E7EBF3;
-    
 }
 
 .tec_que_resolve {
-    background-color: #F8FAFC;
-    margin: 125px 160px 0 160px;
+    padding-top: 35px;
 }
 
 .tick_disponivel {
-    background-color: #E4ECFB;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(44, 107, 237, 0.1);
     color: #2C6BED;
-    padding: 8px 16px;
-    max-width: 255px;
-    font-size: 13px;
-    border-radius: 25px;
-    font-weight: bold;
+    font-weight: 700;
+    max-width: 300px;
+    padding: 6px;
+    border-radius: 16px;
+}
+
+.div_h2_index {
+    text-align: center;
 }
 
 .h2_tec_que_resolve {
-    font-size: 45px;
     font-weight: 900;
-    line-height: 10px;
+    font-size: 40px;
+    line-height: 30%;
 }
 
 .p_tec {
+    text-align: center;
+    padding: 0 17px;
     color: #4E6797;
-    max-width: 335px;
-    line-height: 23px;
+    font-size: 24px;
+}
+
+.div_apps {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .img_baixar {
-    max-width: 170px;
-    max-height: 59px;
+    max-width: 50%;
+    padding-top: 10px;
+}
+
+.parte_superior aside {
+    text-align: center;
 }
 
 .mock_celular {
-    max-height: 750px;
-    margin-right: 160px;
+    max-width: 85%;
 }
 
-/*Impacto na sua cidade*/
+/* Impacto na sua Cidade */
 
 .h4_impacto {
     color: #9CA3AF;
     text-align: center;
-    margin-top: 36px;
+    font-weight: bold;
 }
 
 .impacto_na_cidade {
     display: flex;
-    justify-content: space-around;
-    margin: 60px;
-    
-}
+    flex-direction: column;
+    text-align: center;
 
-.teste2{
-    border-right: 1px solid;
-    border-left: 1px solid;
-    border-color: #E7EBF3;
-    padding: 0 96px;
 }
 
 .title_impactos {
     color: #4E6797;
-    text-align: center;
-    margin: 5px;
-    padding: 0;
+    margin: 7px;
 }
 
 .valores_impactos {
+    font-weight: 900;
     color: #0E121B;
-    text-align: center;
-    font-size: 56px;
-    font-weight:900;
-    margin: 5px;
-    padding: 0;
+    font-size: 45px;
+    margin: 24px;
 }
 
 #problemas_resolvidos_valor {
@@ -164,203 +183,127 @@ a {
 
 .descricao_impacto {
     color: #2ECC71;
-    text-align: center;
-    margin: 5px;
-    padding: 0;
+    font-weight: bold;
 }
 
-/*Por que usar o Cidades+*/
+/* Por que usar o Cidades+ */
 
 .section_pq_usar_cidades {
     background-color: #F8FAFC;
-    padding: 15px;
+    border-top: 2px solid #E7EBF3;
     border-bottom: 2px solid #E7EBF3;
 }
 
 .cont_pq_usar {
-    margin: 0 160px;
+    padding: 0 35px;
+    text-align: center;
 }
 
 .h4_pq_usar {
-    text-align: center;
     color: #2C6BED;
+    font-weight: bold;
 }
 
 .voz_poder {
-    margin: 0;
     color: #0E121B;
-    text-align: center;
-    font-size: 50px;
     font-weight: 900;
+    font-size: 28px;
 }
 
 .frase_poder {
     color: #4E6797;
-    text-align: center;
+    font-size: 20px;
 }
 
 .div_cards_pq {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
 }
 
 .cards_pq {
     background-color: white;
-    max-width: 400px;
-    width: 100%;
-    margin: 25px;
-    min-height: 250px;
-    border: 1px solid #E7EBF3;
-    border-radius: 15px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding: 25px;
+    margin: 25px 0;
+    border: 2px solid #E7EBF3;
+    border-radius: 12px;
 }
 
 .icones_pq {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 25%;
 }
 
 .title_cards_pq {
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 23px;
 }
 
 .descricao_cards_pq {
-    max-width: 300px;
     color: #4E6797;
 }
 
-/*Como Funciona o Aplicativo*/
+/* Como funciona o aplicativo */
+
 .section_como_funciona {
     border-bottom: 2px solid #E7EBF3;
 }
 
 .cont_como_funciona {
-    margin: 0 160px;
+    text-align: center;
+    padding: 0 12px;
 }
 
 .div_cards_como_funciona {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 15px;
+    flex-direction: column;
 }
 
 .card_como_funciona {
-    max-width: 400px;
-    margin: 25px;
-    min-height: 250px;
-    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .icone_como_funciona {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 50%;
+}
+
+.title_cards_como_funciona {
+    color: #0E121B;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.descricao_cards_como_funciona {
+    color: #4E6797;
+    font-size: 18px;
 }
 
 /*Footer*/
+
+footer {
+    text-align: center;
+    padding: 0 35px;
+}
+
+footer a,p {
+    color: #4E6797;
+}
+
 .footer_section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cont-footer {
-    margin: 0 160px;
-}
-
-footer div img {
-    max-width: 55px;
-    max-height: 55px;
-
-}
-
-.footer_sobre {
-    max-width: 170px;
+    flex-direction: column;
 }
 
 .footer_logo {
     display: flex;
-}
-
-footer ul {
-    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-footer li {
-    list-style: none;
-    margin: 5px;
+.logo_footer_img {
+    max-width: 10%;
 }
 
-footer p {
-    color: #4E6797;
-    line-height: 22px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #4E6797;
-}
-
-footer a:hover {
-    color: #202b3f;
-}
-
-footer p img {
-    max-width: 25px;
-    max-height: 35px;
-    margin: 5px;
-}
-
-.fim_footer {
-    text-align: center;
-}
-
-/*Media NOTEBOOK*/
-@media (min-width:1254px) and (max-width:1679px) {
-.cont_pq_usar {
-    margin: 15px;
-}
-
-.cards_pq {
-    min-width: 320px;
-}
-}
-
-/*Media TABLET*/
-@media (min-width:769px) and (max-width:1253px) {
-header {
-    padding: 0 30px;
-}
-
-.div_h2_index {
-    min-width: 400px;
-}
-
-.tec_que_resolve {
-    margin: 75px 150px 75px 75px;
-}
-
-.mock_celular {
-    max-height: 590px;
-    margin: 0;
-}
-
-.cont_pq_usar {
-    margin: 15px;
-}
-
-.cards_pq {
-    text-align: center;
-    max-height: 500px;
-}
-}
-
-/*Media CELULAR*/
-@media (max-width:768px) {
-
+.icons_footer_img {
+    max-width: 10%;
 }
