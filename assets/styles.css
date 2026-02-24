@@ -36,7 +36,7 @@ ul,li {
 }
 
 .logo_cdd_header {
-    max-width: 16%;
+    max-width: 3rem;
 }
 
 .h1_index {
@@ -138,7 +138,7 @@ li.baixar_agora {
 }
 
 .img_baixar {
-    max-width: 50%;
+    max-width: 12rem;
     padding-top: 10px;
 }
 
@@ -147,7 +147,7 @@ li.baixar_agora {
 }
 
 .mock_celular {
-    max-width: 85%;
+    max-width: 25rem;
 }
 
 /* Impacto na sua Cidade */
