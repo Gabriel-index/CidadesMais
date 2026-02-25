@@ -7,7 +7,7 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -52,7 +52,8 @@ ul,li {
 }
 
 .material-symbols-outlined {
-    margin-top: 5%;
+    margin-top: 1.5rem;
+    display: block;
 }
 
 .header_index ul {
@@ -119,7 +120,7 @@ li.baixar_agora {
 .h2_tec_que_resolve {
     font-weight: 900;
     font-size: 40px;
-    line-height: 30%;
+    line-height: 0.4;
 }
 
 .p_tec {
@@ -147,7 +148,7 @@ li.baixar_agora {
 }
 
 .mock_celular {
-    max-width: 25rem;
+    max-width: 17rem;
 }
 
 /* Impacto na sua Cidade */
@@ -164,6 +165,14 @@ li.baixar_agora {
     text-align: center;
 
 }
+
+.card_impacto_index {
+    border-top: 2px solid #E7EBF3;
+    border-bottom: 2px solid #E7EBF3;
+    max-width: 350px;
+    padding: 25px 0;
+    margin: 0 auto;
+    }
 
 .title_impactos {
     color: #4E6797;
@@ -264,7 +273,7 @@ li.baixar_agora {
 }
 
 .icone_como_funciona {
-    max-width: 50%;
+    max-width: 6rem;
 }
 
 .title_cards_como_funciona {
@@ -285,7 +294,8 @@ footer {
     padding: 0 35px;
 }
 
-footer a,p {
+footer a,
+footer p {
     color: #4E6797;
 }
 
@@ -301,9 +311,173 @@ footer a,p {
 }
 
 .logo_footer_img {
-    max-width: 10%;
+    max-width: 3rem;
 }
 
 .icons_footer_img {
-    max-width: 10%;
+    max-width: 2.5rem;
+}
+
+/* Tablet pequeno */
+@media (min-width: 480px) {
+    .mock_celular {
+        max-width: 21rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .p_tec {
+        max-width: 500px;
+        margin: 15px auto;
+    }
+
+    .impacto_na_cidade {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 45px;
+    }
+    
+    .card_impacto_index {
+        border-top: none;
+        border-bottom: none;
+        border-left: 2px solid #E7EBF3;
+        border-right: 2px solid #E7EBF3;
+        padding: 0 4rem;
+    }
+
+    .cards_pq {
+        max-width: 500px;
+        margin: 25px auto;
+    }
+}
+
+/* Notebook */
+@media (min-width: 1024px) {
+    /*Header*/
+    .header_index {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo_cdd_header {
+        max-width: 3rem;
+    }
+    
+    header .material-symbols-outlined {
+        display: none;
+    }
+
+    header li {
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+    li.baixar_agora {
+        margin-top: 0px;
+    }
+
+    .h1_index {
+        margin-top: 17px;
+    }
+
+    .header_index li.entrar_botao_index a {
+        padding: 8px 32px;
+    }
+
+    .header_index li.baixar_agora a {
+        padding: 12px 32px;
+    }
+
+    /*Main*/
+    /*Parte superior*/
+    .parte_superior {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tick_disponivel {
+        text-align: left;
+        margin: 0;
+    }
+
+    .h2_tec_que_resolve {
+        font-size: 50px;
+        line-height: 0.2;
+        text-align: left;
+    }
+
+    .p_tec {
+        text-align: left;
+        padding: 0;
+    }
+
+    .div_apps {
+        flex-direction: row;
+    }
+
+    .img_baixar {
+        margin: 0 6px;
+    }
+
+    .mock_celular {
+        max-width: 23rem;
+    }
+
+    /*Impacto na cidade*/
+    .impacto_na_cidade {
+        margin: 25px 100px;
+    }
+
+    
+    /*Footer*/
+    .footer_section {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+        margin: 65px 4px;
+    }
+
+    .footer_logo {
+        justify-content: left;
+    }
+    
+    .footer_sobre {
+        max-width: 350px;
+        text-align: left;
+    }
+
+    .icons_footer_img {
+        max-width: 2.5rem;
+        padding: 0 2px;
+    }
+}
+/* Desktop grande */
+@media (min-width: 1400px) {
+    .cont_pq_usar {
+        padding: 30px;
+    }
+
+    .div_cards_pq {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cards_pq {
+        margin: 10px 35px;
+    }
+
+    .div_cards_como_funciona {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 35px;
+        text-align: center;
+    }
+
+    .card_como_funciona {
+        max-width: 400px;
+    }
 }
