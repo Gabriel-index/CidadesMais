@@ -24,6 +24,10 @@ ul,li {
     border-bottom: 1px solid #E7EBF3;
 }
 
+.header_index a:hover{
+    color: #2C6BED;
+}
+
 .header_mobile_index {
     display: flex;
     flex-direction: row;
@@ -321,7 +325,7 @@ li.baixar_agora {
     max-width: 1000px;
     margin: 0 auto;
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 
 .h2_sobre_nos_parte_superior span {
@@ -366,6 +370,7 @@ li.baixar_agora {
     flex-direction: column;
     justify-content: space-around;
     padding: 35px 35px;
+    margin: 0 auto;
 }
 
 .cards_nossos_valores {
@@ -413,10 +418,8 @@ li.baixar_agora {
 }
 
 .img_pessoa {
-    max-width: 350px;
-    width: 100%;
-    max-height: 250px;
-    height: 100%;
+    width: clamp(350px, 65%, 1200px);
+    height: clamp(250px, 65%, 1200px);
 }
 
 .text_pq_nasceu {
@@ -470,7 +473,7 @@ li.baixar_agora {
 
 /*Perguntas Frequentes*/
 .section_perguntas_frequentes {
-    margin: 120px 160px 0 160px;
+    margin: 0 1px;
 }
 
 .h4_perguntas_frequentes {
@@ -479,7 +482,7 @@ li.baixar_agora {
 }
 
 .h2_perguntas_frequentes {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
     color: #2F3640;
     text-align: center;
@@ -501,8 +504,8 @@ li.baixar_agora {
     border: 1px solid #F3F4F6;
     border-radius: 16px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    min-width: 1150px;
-    margin: 7px 0;
+    width: clamp(300px, 80%, 1200px);
+    margin: 7px 10px;
 }
 
 .icone_e_perguntas {
@@ -511,14 +514,14 @@ li.baixar_agora {
 }
 
 .icones_perguntas_frequentes {
-    max-width: 21px;
-    max-height: 21px;
-    margin: 15px;
+    max-width: 20px;
+    max-height: 20px;
+    margin: 17px 15px 15px 0;
 }
 
 .icone_seta_perguntas {
-    max-width: 18px;
-    max-height: 18px;
+    max-width: 15px;
+    max-height: 15px;
     margin: 20px 0;
 }
 
@@ -530,10 +533,10 @@ li.baixar_agora {
 .h2_transformar {
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 29px;
     font-weight: 900;
     margin: 0;
-    padding-top: 67px;
+    padding: 67px 15px;
 }
 
 .p_tranformar {
@@ -586,10 +589,20 @@ footer p {
 
 /* Tablet pequeno */
 @media (min-width: 480px) {
+    /* INDEX */
     .mock_celular {
         max-width: 21rem;
     }
-}
+
+    /* SOBRE-NOS */
+    .dados_pq_nasceu {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    /* PERGUNTAS FREQUENTES */
+    .div_caixas_de_perguntas {
+        padding: 0px 0px 30px 0;
+    }
 
 /* Tablet */
 @media (min-width: 768px) {
@@ -698,6 +711,46 @@ footer p {
         margin: 25px 100px;
     }
 
+    /* SOBRE NOS */
+    /* TELAO SUPERIOR */
+    .cont-parte_superior_sobre_nos {
+        padding: 36px 0;
+    }
+
+    .h2_sobre_nos_parte_superior {
+        font-size: 45px;
+        max-width: 700px;
+    }
+
+    /* NOSSOS VALORES */
+    .div_cards_nossos_valores {
+        flex-direction: row;
+    }
+
+    .cards_nossos_valores {
+        margin: 10px;
+    }
+
+    /* POR QUE NASCEU */
+    .pq_nasceu {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .img_pessoa {
+        width: 600px;
+        height: 500px;
+    }
+
+    .text_pq_nasceu {
+        max-width: 600px;
+    }
+
+    /* PRONTO PARA TRANFORMAR */
+    .h2_transformar {
+        padding: 25px 0 10px 0;
+    }
+
     
     /*Footer*/
     .footer_section {
@@ -751,4 +804,20 @@ footer p {
     .card_como_funciona {
         max-width: 400px;
     }
+
+    /* SOBRE NOS */
+    .h2_sobre_nos_parte_superior {
+        font-size: 60px;
+        max-width: 850px;
+    }
+
+    .img_pessoa {
+        width: 800px;
+        height: 600px;
+    }
+
+    .text_pq_nasceu {
+        max-width: 800px;
+    }
+}
 }
