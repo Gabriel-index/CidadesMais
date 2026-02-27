@@ -439,7 +439,7 @@ li.baixar_agora {
 
 .p_pq_nasceu {
     color: rgba(47, 54, 64, 0.7);
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 29px;
 }
 
@@ -553,6 +553,131 @@ li.baixar_agora {
 .img_baixar_transformar {
     max-width: 170px;
     max-height: 59px;
+}
+
+/* TELA LOGIN  */
+/* MAIN */
+/* Lado Esquerdo */
+
+.texto_esquerdo_login {
+    display: none;
+}
+
+/*Lado direito*/
+
+.section_login {
+    margin: 50px 15px;
+}
+
+.h2_entrar_login {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #2F3640;
+    margin: 0;
+}
+
+.acessar_sua_conta {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.botoes_entrar_login {
+    text-align: center;
+}
+
+.img_entrar_login {
+    width: 158px;
+    cursor: pointer;
+}
+
+.traco_login {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 15px;
+
+}
+
+.ou_e-mail_login {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_login label {
+    font-weight: bold;
+    color: #2F3640;
+}
+
+.form_login input {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 1px solid #E5E7EB;
+    max-width: 580px;
+}
+
+.section_login a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2C6BED;
+}
+
+.section_login a:hover {
+    color: #5b8ae9;
+    
+}
+
+.form_login button {
+    padding: 15px;
+    max-width: 620px;
+    background-color: #2C6BED;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px rgba(0,0,0,0.5);
+}
+
+.form_login button:hover {
+    background-color: #5b8ae9;
+    cursor: pointer;
+}
+
+.esqueci_senha {
+    display: flex;
+    justify-content: right;
+}
+
+.nao_tem_conta {
+    color: rgba(47, 54, 64, 0.6);
+    margin: 45px 0;
+    text-align: center;
+}
+
+.concorda_login {
+    color: rgba(47, 54, 64, 0.4);
+    text-align: center;
+}
+
+.concorda_login a {
+    color: rgba(47, 54, 64, 0.4);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.concorda_login a:hover {
+    color: #2F3640;
 }
 
 
