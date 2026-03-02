@@ -565,6 +565,10 @@ li.baixar_agora {
 
 /*Lado direito*/
 
+.main_tela_login {
+    background-color: #F8FAFC;
+}
+
 .section_login {
     margin: 50px 15px;
 }
@@ -588,7 +592,7 @@ li.baixar_agora {
 }
 
 .img_entrar_login {
-    width: 158px;
+    width: clamp(140px, 40%, 300px);
     cursor: pointer;
 }
 
@@ -680,6 +684,133 @@ li.baixar_agora {
     color: #2F3640;
 }
 
+/* TELA CADASTRE-SE */
+/* Lado Esquerdo */
+
+.texto_esquerdo_cadastrar {
+    display: none;
+}
+
+/*Lado direito*/
+
+.main_tela_cadastrar {
+    background-color: #F8FAFC;
+}
+
+.section_cadastrar {
+    margin: 50px 15px;
+}
+
+.h2_entrar_cadastrar {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #2F3640;
+    margin: 0;
+}
+
+.acessar_sua_conta {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.botoes_entrar_cadastrar {
+    text-align: center;
+}
+
+.img_entrar_cadastrar {
+    width: clamp(140px, 40%, 300px);
+    cursor: pointer;
+}
+
+.traco_cadastrar {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 15px;
+
+}
+
+.ou_e-mail_cadastrar {
+    color: rgba(47, 54, 64, 0.6);
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form_cadastrar {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_cadastrar label {
+    font-weight: bold;
+    color: #2F3640;
+}
+
+.form_cadastrar input {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 1px solid #E5E7EB;
+    max-width: 580px;
+}
+
+.section_cadastrar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2C6BED;
+}
+
+.section_cadastrar a:hover {
+    color: #5b8ae9;
+    
+}
+
+.form_cadastrar button {
+    padding: 15px;
+    max-width: 620px;
+    background-color: #2C6BED;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 2px 4px 9px rgba(0,0,0,0.5);
+}
+
+.form_cadastrar button:hover {
+    background-color: #5b8ae9;
+    cursor: pointer;
+}
+
+.esqueci_senha {
+    display: flex;
+    justify-content: right;
+}
+
+.nao_tem_conta {
+    color: rgba(47, 54, 64, 0.6);
+    margin: 45px 0;
+    text-align: center;
+}
+
+.concorda_cadastrar {
+    color: rgba(47, 54, 64, 0.4);
+    text-align: center;
+}
+
+.concorda_cadastrar a {
+    color: rgba(47, 54, 64, 0.4);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.concorda_cadastrar a:hover {
+    color: #2F3640;
+}
 
 /*Footer*/
 
@@ -727,6 +858,36 @@ footer p {
     /* PERGUNTAS FREQUENTES */
     .div_caixas_de_perguntas {
         padding: 0px 0px 30px 0;
+    }
+
+    /* TELA LOGIN  */
+    .texto_esquerdo_login {
+        display: none !important; 
+    }
+
+    .section_login {
+        max-width: 623px;
+        margin: 35px auto;
+        padding: 15px;
+    }
+
+    .img_entrar_login {
+        width: clamp(223px, 40%, 500px);
+    }
+
+    /* TELA CADASTRE-SE */
+    .texto_esquerdo_cadastrar {
+        display: none !important; 
+    }
+
+    .section_cadastrar {
+        max-width: 623px;
+        margin: 35px auto;
+        padding: 15px;
+    }
+
+    .img_entrar_cadastrar {
+        width: clamp(223px, 40%, 500px);
     }
 
 /* Tablet */
@@ -876,7 +1037,79 @@ footer p {
         padding: 25px 0 10px 0;
     }
 
-    
+    /* TELA LOGIN */
+    .fundo_login {
+        display: block;
+        background-image: url(/img/Fundo_login.png);
+        background-size: cover;
+        background-position: right;
+        width: clamp(450px, 45%, 700px);
+        min-height: 824px;
+        display: flex;
+        align-items: end;
+    }
+
+    .cont-login {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h1_login {
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .h4_login {
+        color: white;
+        font-weight: 300;
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .texto_esquerdo_login {
+        display: block !important;
+        padding: 0 20px 115px 15px;
+    }
+
+    /* TELA CADASTRE-SE */
+    .fundo_cadastrar {
+        display: block;
+        background-image: url(/img/Fundo_login.png);
+        background-size: cover;
+        background-position: right;
+        width: clamp(450px, 45%, 700px);
+        min-height: 824px;
+        display: flex;
+        align-items: end;
+    }
+
+    .cont-cadastrar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h1_cadastrar {
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .h4_cadastrar {
+        color: white;
+        font-weight: 300;
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .texto_esquerdo_cadastrar {
+        display: block !important;
+        padding: 0 10px 115px 10px;
+    }
     /*Footer*/
     .footer_section {
         flex-direction: row;
@@ -898,6 +1131,7 @@ footer p {
         max-width: 2.5rem;
         padding: 0 2px;
     }
+}
 }
 /* Desktop grande */
 @media (min-width: 1400px) {
@@ -944,5 +1178,18 @@ footer p {
     .text_pq_nasceu {
         max-width: 800px;
     }
-}
+
+    /* TELA LOGIN */
+    .fundo_login {
+        min-height: 913px;
+    }
+
+    /* TELA CADASTRE-SE */
+    .fundo_login {
+        min-height: 913px;
+    }
+
+    .texto_esquerdo_cadastrar {
+        padding: 0 10px 115px 45px;
+    }
 }
