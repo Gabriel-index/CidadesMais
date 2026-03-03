@@ -281,18 +281,18 @@ li.baixar_agora {
 }
 
 .icone_como_funciona {
-    max-width: 6rem;
+    max-width: 5.5rem;
 }
 
 .title_cards_como_funciona {
     color: #0E121B;
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px 0;
 }
 
 .descricao_cards_como_funciona {
     color: #4E6797;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* MAIN SOBRE NÓS */
