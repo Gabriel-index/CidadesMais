@@ -418,7 +418,7 @@ li.baixar_agora {
 }
 
 .img_pessoa {
-    width: clamp(350px, 65%, 1200px);
+    width: clamp(200px, 65%, 1200px);
     height: clamp(250px, 65%, 1200px);
 }
 
@@ -542,6 +542,7 @@ li.baixar_agora {
 .p_tranformar {
     color: #9CA3AF;
     text-align: center;
+    padding: 0 15px;
 }
 
 .div_baixar_btns {
