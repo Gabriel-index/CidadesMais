@@ -940,7 +940,7 @@ footer p {
     .img_entrar_cadastrar {
         width: clamp(223px, 40%, 500px);
     }
-
+}
 /* Tablet */
 @media (min-width: 768px) {
     .p_tec {
@@ -1094,15 +1094,15 @@ footer p {
 
     /* TELA LOGIN */
     .fundo_login {
-        display: block;
         background-image: url(/img/Fundo_login.png);
         background-size: cover;
         background-position: right;
         width: clamp(450px, 45%, 700px);
-        height: 100dvh;
+        height: 100vh;
         display: flex;
-        align-items: end;
-    }
+        flex-direction: column;
+        justify-content: flex-end; 
+}
 
     .cont-login {
         display: flex;
@@ -1187,7 +1187,7 @@ footer p {
         padding: 0 2px;
     }
 }
-}
+
 /* Desktop grande */
 @media (min-width: 1400px) {
     /* MAIN INDEX */
