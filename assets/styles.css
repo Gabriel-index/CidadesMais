@@ -22,6 +22,10 @@ ul,li {
 .header_index {
     padding: 0 12px;
     border-bottom: 1px solid #E7EBF3;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0
 }
 
 .header_index a:hover{
@@ -108,7 +112,10 @@ li.baixar_agora {
 /* INDEX */
 /*Main*/
 /* Parte superior */
-
+.pag_normal {
+    margin-top: 60px;
+    padding-top: 8px;
+}
 .parte_superior {
     background-color: #F8FAFC;
     border-bottom: 2px solid #E7EBF3;
