@@ -96,6 +96,8 @@
     font-size: 50px;
     font-weight: 900;
     text-align: center;
+    margin: 10px auto;
+    padding: 0;
 }
 
 .paragrafos-3-impacto {
@@ -103,6 +105,8 @@
     font-size: 14px;
     font-weight: 700;
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .agora-e-tarde-impacto {
@@ -211,7 +215,7 @@
         #5784ff 100%
     );
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .alianhando5-impacto {
@@ -279,7 +283,7 @@
 }
 
 .img-grande26-impacto {
-    width: clamp(340px, 28vw + 180px, 536px);
+    width: clamp(320px, 24vw + 150px, 510px);
     height: clamp(467px, -16.85vw + 585px, 526px);
     border-radius: 8px;
     margin: 30px 50%;
@@ -346,15 +350,16 @@
     .alinhando7-impacto {
         text-align: start;
         justify-content: start;
-        width: 60%;
+        width: 50%;
         padding: 0 20px;
     }
     .arrumar-impacto {
         justify-content: start;
     }
     .montoramento2-impacto {
-        margin: 45px 0 0;
-
+        margin: 50px 0 0;
+        padding: 10px;
+        width: 128px;
    }
 }
 
@@ -369,9 +374,6 @@
         .agora-e-tarde-impacto {
             gap: 300px;
         }
-        .montoramento2-impacto {
-        margin: 100px 0 0; 
-        }    
 }
 /* telas grandes */
 @media (min-width: 1200px) { }
