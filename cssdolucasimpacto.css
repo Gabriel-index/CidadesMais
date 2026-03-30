@@ -1,4 +1,4 @@
-
+/* SECTION 1 - TELA IMPACTO: bloco inicial azul (introdução) */
 .azul-3-cores { 
     background: linear-gradient(
         180deg,
@@ -26,7 +26,7 @@
 
 .resultados-impacto {
     text-align: center;
-    font-size: clamp(35px, 8vw, 70px);
+    font-size: 35px;
     font-weight: 900;
     margin: 20px 0;
     color: #fff;
@@ -38,12 +38,13 @@
 
 .paragrafos-impacto {
     text-align: center;
-    font-size: clamp(14px, 4vw, 20px);
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     margin: 5px 0 90px;
 }
 
+/* SECTION 2 - TELA IMPACTO: cards com números */
 .branco-section-impacto {
     background-color: #fff;
     display: flex;
@@ -70,7 +71,7 @@
 }
 
 .h2-preto-impacto {
-    font-size: clamp(30px, 8.6vw, 48px);
+    font-size: 30px;
     font-weight: 900;
     color: #2F3640;
     text-align: center;
@@ -109,6 +110,7 @@
     padding: 0;
 }
 
+/* SECTION 3 - TELA IMPACTO: casos de sucesso (exemplos reais) */
 .agora-e-tarde-impacto {
     display: flex;
     flex-direction: column;
@@ -132,7 +134,6 @@
     flex-direction: row;
     width: 50%; 
     height: 50%;
-    transform: translate(-50% -50%);
 }
 
 .img-cell-impacto {
@@ -201,12 +202,7 @@
     margin: 0 15px;
 }
 
-
-
-
-
-
-
+/* SECTION 4 - TELA IMPACTO: tecnologia e explicação */
 .secao-tecnologia {
     background: linear-gradient(
         180deg,
@@ -242,7 +238,7 @@
 }
 
 .h3-branco5-impacto {
-    font-size: clamp(35px, 2.85vw + 25px, 45px);
+    font-size: 35px;
     color: #fff;
     font-weight: 900;
     padding: 10px 0;
@@ -283,18 +279,12 @@
 }
 
 .img-grande26-impacto {
-    width: clamp(320px, 24vw + 150px, 510px);
-    height: clamp(467px, -16.85vw + 585px, 526px);
+    width: clamp(320px, 20vw, 1000px);
+    height: clamp(467px, 20vw, 550px);
     border-radius: 8px;
-    margin: 30px 50%;
-    translate: calc(-50%);
+    margin: 30px auto;
 }
-
-
-
-
-
-
+/* SECTION 5 - TELA IMPACTO: área final com botão */
 .preto-impacto{
     background-color: #000;
     display: flex;
@@ -345,7 +335,7 @@
     .alianhando5-impacto {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .alinhando7-impacto {
         text-align: start;
