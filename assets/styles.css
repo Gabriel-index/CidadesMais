@@ -222,7 +222,7 @@ li.baixar_agora {
 /* Por que usar o Cidades+ */
 
 .section_pq_usar_cidades {
-    background-color: #F8FAFC;
+    background-color: #2C6BED;
     border-top: 2px solid #E7EBF3;
     border-bottom: 2px solid #E7EBF3;
 }
@@ -233,18 +233,19 @@ li.baixar_agora {
 }
 
 .h4_pq_usar {
-    color: #2C6BED;
+    color: #F1C40F;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .voz_poder {
     color: #0E121B;
     font-weight: 900;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .frase_poder {
-    color: #4E6797;
+    color: #F2F4F7;
     font-size: 20px;
 }
 
@@ -260,6 +261,12 @@ li.baixar_agora {
     margin: 25px 0;
     border: 2px solid #E7EBF3;
     border-radius: 12px;
+}
+
+.cards_pq:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
 }
 
 .icones_pq {
@@ -309,6 +316,7 @@ li.baixar_agora {
 .descricao_cards_como_funciona {
     color: #4E6797;
     font-size: 16px;
+    margin-bottom: 55px;
 }
 
 /* MAIN SOBRE NÓS */

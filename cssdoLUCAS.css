@@ -77,11 +77,17 @@
     border: 1px solid #E7EBF3;
 }
 
+.img_texto_funciona {
+    display: flex;
+    flex-direction: row;
+}
+
 .img-quadrados2-funciona {
     justify-content: start;
     width: 48px;
     height: 48px;
     border-radius: 6px;
+    margin-right: 17px;
 }
 
 .h5-quadrados2-funciona {
@@ -127,6 +133,7 @@
     margin: 2px 0 0px;
     font-size: 25px;
     font-weight: 700;
+    justify-content: left;
 }
 
 
@@ -229,12 +236,20 @@
 .quadrados22-2section-funciona { 
     flex-direction: column;
     width: clamp(305px, 45%, 600px);
-    height: 420px;
+    height: 370px;
     padding: 22px 17px;
     background-color: #F8F9FC;
     margin: 30px auto;
     border: 1px solid #E7EBF3;
     border-radius: 25px;
+}
+
+.quadrados22-2section-funciona h5 {
+    margin: 12px;
+}
+
+.quadrados22-2section-funciona .img-quadrados2-funciona {
+    margin-bottom: 25px;
 }
 
 .bloco-funciona {
@@ -284,12 +299,6 @@
     border-radius: 10px;
     border: 1px solid #E7EBF3;
     padding: 15px 20px;
-}
-
-.cadeado-funciona {
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
 .img-section5-funciona {
@@ -491,10 +500,12 @@
     .div-div-funciona {
         display: flex;
         flex-direction: row;
+        height: 370px;
     }
     .cadeado-funciona {
         width: 30%;
-        padding: 140px 0;
+        padding: 0;
+        margin-top: 80px;
     }
 
     .img-section5-funciona {
@@ -507,7 +518,7 @@
     .div333-funciona {
         justify-content: start;
         text-align: start;
-        margin: 140px 0 0;
+        margin-top: 85px;
         width: 70%;
     }
     .p-p-funciona {
