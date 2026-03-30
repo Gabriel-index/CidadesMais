@@ -936,7 +936,7 @@ footer p {
 
 .h2-funciona {
     color: #0D121B;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 900;
     margin: 16px 0 16px;
 }
@@ -949,8 +949,8 @@ footer p {
     font-size: 18px;
     font-weight: 500;
     color: #4C669A;
-    margin: 0 auto 10px;
     text-align: center;
+    max-width: 720px;
 }
 
 .div-img-funciona {
@@ -959,8 +959,7 @@ footer p {
 
 .img-cell-funciona {
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: clamp(300px, 21rem, 500px);
     margin: 30px 0 40px;
 }
 /* SECTION 2 - TELA COMO FUNCIONA: organização dos primeiros passos */
@@ -968,7 +967,7 @@ footer p {
 .h3-2section-funciona {
     text-align: center;
     margin: 30px 0 15px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .p-22dezoito-funciona {
@@ -1043,7 +1042,7 @@ footer p {
     display: block;
     text-align: center;
     margin: 2px 0 0px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     justify-content: left;
 }
@@ -1125,7 +1124,7 @@ footer p {
 /* SECTION 4 - TELA COMO FUNCIONA: organização dos recursos */
 .h3-4section-funciona {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     color: #0D121B;
     margin: 40px 0 20px;
@@ -1261,7 +1260,7 @@ footer p {
 
 .branco-funciona {
     color: #fff;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     padding: 40px 0 20px;
     margin: 0 10px;
@@ -1303,21 +1302,22 @@ footer p {
     align-items: center;
 }
 
-.monitoramento-impacto {
-    text-align: center;
-    font-size: 9px;
-    font-weight: 500;
-    border-radius: 15px;
-    padding: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.451);
-    margin: 50px auto 0;
+.tick2_sobre_nos{
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.227);
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(3px);
+    margin: 40px auto 0;
+    max-width: 500px;
 }
 
 .resultados-impacto {
     text-align: center;
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 900;
     margin: 20px 0;
     color: #fff;
@@ -1329,7 +1329,7 @@ footer p {
 
 .paragrafos-impacto {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     margin: 5px 0 90px;
@@ -1362,7 +1362,7 @@ footer p {
 }
 
 .h2-preto-impacto {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     color: #2F3640;
     text-align: center;
@@ -1529,16 +1529,16 @@ footer p {
 }
 
 .h3-branco5-impacto {
-    font-size: 35px;
+    font-size: 45px;
     color: #fff;
     font-weight: 900;
-    padding: 10px 0;
 }
 
 .p-cinza3-impacto {
     color: rgba(255, 255, 255, 80%);
     font-size: 18px;
     font-weight: 500;
+    max-width: 610px;
 }
 
 .arrumar-impacto {
@@ -1660,6 +1660,10 @@ footer p {
     .img_entrar_cadastrar {
         width: clamp(223px, 40%, 500px);
     }
+    /* tela impacto */
+    .p-cinza3-impacto {
+        margin: 20px auto;
+    }
 }
 /* Tablet */
 @media (min-width: 768px) {
@@ -1761,6 +1765,11 @@ footer p {
         margin: 50px 0 0;
         padding: 10px;
         width: 128px;
+   }
+   /* tela impacto */
+   .p-cinza3-impacto {
+    text-align: left;
+    margin: 0;
    }
 }
 
@@ -1981,7 +1990,7 @@ footer p {
         max-width: 2.5rem;
         padding: 0 2px;
     }
-
+    /* tela impacto e funciona */
     .div1e3-funciona {
         justify-content: center;
         text-align: center;
@@ -2084,9 +2093,12 @@ footer p {
             gap: 150px;
             margin: 60px 0;
         }
-        .agora-e-tarde-impacto {
+    .agora-e-tarde-impacto {
             gap: 300px;
         }
+    .img-grande26-impacto {
+        width: 550px;
+    }
 }
 
 /* Desktop grande */
