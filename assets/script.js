@@ -32,3 +32,4 @@ const menu = document.querySelector(".menu");
 menuIcon.addEventListener("click", () => {
     menu.classList.toggle("ativo");
 });
+

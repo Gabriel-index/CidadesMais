@@ -910,6 +910,710 @@ footer p {
     max-width: 2.5rem;
 }
 
+/* SECTION 1 - TELA COMO FUNCIONA: estrutura da introdução */
+.section-cinza-funciona {
+    background-color: #E4ECFB;
+    padding: 16px 0 0;
+}
+
+.alinhando-text-img-funciona {
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhamento-centro-funcionamento {
+    text-align: center;
+}
+
+.ensinamento-funciona {
+    color: #2C6BED;
+    background-color: rgba(44, 107, 237, 10%);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px 11px;
+    border-radius: 20px;
+}
+
+.h2-funciona {
+    color: #0D121B;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 16px 0 16px;
+}
+
+.span-azul-funciona {
+    color: #2C6BED;
+}
+
+.p-dezoito-funciona {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4C669A;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.div-img-funciona {
+    text-align: center;
+}
+
+.img-cell-funciona {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 30px 0 40px;
+}
+/* SECTION 2 - TELA COMO FUNCIONA: organização dos primeiros passos */
+
+.h3-2section-funciona {
+    text-align: center;
+    margin: 30px 0 15px;
+    font-size: 25px;
+}
+
+.p-22dezoito-funciona {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4C669A;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.quadrados2-2section-funciona {
+    width: clamp(301px, 45%, 600px);
+    height: 370px;
+    padding: 20px 33px 50px;
+    background-color: #F8F9FC;
+    margin: 30px auto;
+    border-radius: 25px;
+    border: 1px solid #E7EBF3;
+}
+
+.img_texto_funciona {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-quadrados2-funciona {
+    justify-content: start;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    margin-right: 17px;
+}
+
+.h5-quadrados2-funciona {
+    margin: 18px 0;
+    color: #0D121B;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.p-quadrados2-funciona {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4C669A;
+    margin: 0 0 35px;
+    max-width: 95%;
+}
+
+.span-quadrados2-funciona {
+    color: #4C669A;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 25px;
+    display: block;
+}
+
+/* SECTION 3 - TELA COMO FUNCIONA: estrutura do passo a passo */
+.cinza-3section-funciona {
+    background-color: #F8F9FC;
+}
+
+.p-3section-funciona {
+    padding: 30px 0 10px;
+    color: #2ECC71;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.h3-3section-funciona {
+    display: block;
+    text-align: center;
+    margin: 2px 0 0px;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: left;
+}
+
+
+.span2-1azul-funciona {
+    display: none;
+}
+
+.span2-2azul-funciona {
+    display: none;
+}
+
+.span2-verde-funciona{
+    display: none;
+}
+
+.span2-4azul-funciona {
+   display: none;
+}
+
+.div1e3-funciona {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div2e4-funciona {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.div-impar-funciona {
+    width: 350px;
+    height: 130px;
+    margin: 20px auto;
+}
+
+.div-par-funciona {
+    width: 350px;
+    height: 130px;
+    margin: 20px auto;
+}
+
+.h4-impar-funciona {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D121B;
+    margin: 10px 0 6px;
+}
+
+.h4-par-funciona {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D121B;
+    margin: 10px 0 6px;
+}
+
+.p-impar-funciona{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4C669A;
+}
+
+.p-par-funciona {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4C669A;
+}
+
+.img-impar-par-funciona {
+    width: 340px;
+    height: 128px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* SECTION 4 - TELA COMO FUNCIONA: organização dos recursos */
+.h3-4section-funciona {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0D121B;
+    margin: 40px 0 20px;
+}
+
+.p-4section-funciona {
+    text-align: center;
+    color: #4C669A;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.divs2-funciona {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrados22-2section-funciona { 
+    flex-direction: column;
+    width: clamp(305px, 45%, 600px);
+    height: 370px;
+    padding: 22px 17px;
+    background-color: #F8F9FC;
+    margin: 30px auto;
+    border: 1px solid #E7EBF3;
+    border-radius: 25px;
+}
+
+.quadrados22-2section-funciona h5 {
+    margin: 12px;
+}
+
+.quadrados22-2section-funciona .img-quadrados2-funciona {
+    margin-bottom: 25px;
+}
+
+.bloco-funciona {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    margin: 60px auto 0;
+    gap: 60px;
+    justify-content: center;
+}
+
+.img3-4section-funciona {
+    margin: 0 auto 20px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.span3-4section-funciona {
+    color: #6B7280;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.img-img-funciona {
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+/* SECTION 5 - TELA COMO FUNCIONA: bloco de segurança */
+.mudanca-cor {
+    background-color: #F8FAFC;
+    padding: 50px 0;
+}
+
+.div-div-funciona {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: clamp(305px, 70%, 1500px);
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #E7EBF3;
+    padding: 15px 20px;
+}
+
+.img-section5-funciona {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+.div333-funciona {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-p-funciona {
+    color: #4C669A;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0 22px;
+}
+
+.aalinhado-funciona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha-funciona {
+    display: flex;
+    margin: 14px 0 0;
+}
+
+.pequeno-funciona {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 2px;
+}
+
+/* SECTION 6 - TELA COMO FUNCIONA: área final com botão */
+.azul-funciona {
+    background-color: #2C6BED;
+    text-align: center;
+    flex-direction: column;
+}
+
+.branco-funciona {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 40px 0 20px;
+    margin: 0 10px;
+}
+
+.p-branco-funciona {
+    color: #fff;
+    margin: 6px 10px 30px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.botao-azul-funciona {
+    color: #2C6BED;
+    background-color: #fff;
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.hj-funciona {
+    padding: 20px 0 40px;
+    color: #BFDBFE;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* SECTION 1 - TELA IMPACTO: bloco inicial azul (introdução) */
+.azul-3-cores { 
+    background: linear-gradient(
+        180deg,
+        #0044ff 0%,
+        #3b79ff 50%,
+        #6f96ff 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.monitoramento-impacto {
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    margin: 50px auto 0;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.227);
+}
+
+.resultados-impacto {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.transformam-amarelo-impacto {
+    color: #F1C40F;
+}
+
+.paragrafos-impacto {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin: 5px 0 90px;
+}
+
+/* SECTION 2 - TELA IMPACTO: cards com números */
+.branco-section-impacto {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.branco-impacto {
+    background-color: #f1f1f1e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-pequena-impacto {
+    width: 80px;
+    height: 80px; 
+    border-radius: 20px;
+    display: block;
+    margin: 5px auto;
+    padding: 22px 0 0;
+}
+
+.h2-preto-impacto {
+    font-size: 30px;
+    font-weight: 900;
+    color: #2F3640;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cards-3-impacto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-impacto {
+    margin: 20px auto;
+    background-color: #ffffff;
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.valor-dos-quadrados-impacto {
+    color: #2F3640;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.paragrafos-3-impacto {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* SECTION 3 - TELA IMPACTO: casos de sucesso (exemplos reais) */
+.agora-e-tarde-impacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-impacto {
+    width: 347px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.imagens-grandes-impactos{
+    display: flex;
+    flex-direction: row;
+    width: 50%; 
+    height: 50%;
+}
+
+.img-cell-impacto {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0 0 0;
+}
+
+.img-cell1-impacto {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 0 0;
+}
+
+.texto-baixo-imagem-impacto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%; 
+    height: 50%;
+}
+
+.span-junta-impacto {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.iluminacao-impacto {
+    color: #ffb300;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 4px 5px;
+    background-color: #fff5bab5;
+}
+
+.horas-solucoes-impacto {
+    color: #6f7581;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 6px 2px;
+}
+
+.h3-quadrado-impacto {
+    color: #2F3640;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.p-cinza-impacto {
+    color: #6B7280;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacao-impactante-impacto {
+    color: #00ff2f;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 15px;
+}
+
+/* SECTION 4 - TELA IMPACTO: tecnologia e explicação */
+.secao-tecnologia {
+    background: linear-gradient(
+        180deg,
+        #1212ff 0%,
+        #3b79ff 50%,
+        #5784ff 100%
+    );
+    width: 100%;
+    padding: 10px 0;
+}
+
+.alianhando5-impacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.alinhando7-impacto {
+    text-align: center;
+    justify-content: center;
+}
+
+.montoramento2-impacto {
+    font-size: 9px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.573);
+    margin: 50px auto 0;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.227);
+    width: 90px;
+}
+
+.h3-branco5-impacto {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.p-cinza3-impacto {
+    color: rgba(255, 255, 255, 80%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.arrumar-impacto {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+}
+
+.tamanho-pequeno-img-impacto {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px 0 0;
+}
+
+.terminando-cor-p-impacto {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+.terminando22-cor-p-impacto {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 6px 10px 0;
+}
+
+.img-grande26-impacto {
+    width: clamp(320px, 20vw, 1000px);
+    height: clamp(467px, 20vw, 550px);
+    border-radius: 8px;
+    margin: 30px auto;
+}
+/* SECTION 5 - TELA IMPACTO: área final com botão */
+.preto-impacto{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-circulo-impacto {
+    width: clamp(100px, 10vw, 200px);
+    height: clamp(100px, 10vw, 200px);
+    border-radius: 100%;
+    display: block;
+    margin: 70px auto;
+}
+
+.p-cinza-impacto {
+    color: #9CA3AF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 10px 60px;
+}
+
+.botao-especial-impacto {
+    width: 180px;
+    height: 50px;
+    padding: 15px 0 0;
+    margin: 0 auto 90px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2F3640;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
 /* Tablet pequeno */
 @media (min-width: 480px) {
     /* INDEX */
@@ -983,6 +1687,81 @@ footer p {
         max-width: 500px;
         margin: 25px auto;
     }
+
+    .alinhando-text-img-funciona {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .alinhamento-centro-funcionamento {
+        width: 60%;
+        padding: 70px 0 0 5px;
+        text-align: left;
+    }
+
+    .p-dezoito-funciona {
+        text-align: left;
+    }
+
+    .agora-e-2tardee-funciona {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* funciona. 3section. */
+    .h4-impar-funciona {
+        text-align: right;
+    }
+    .h4-par-funciona {
+        text-align: left;
+    }
+    .p-impar-funciona {
+        text-align: end;
+    }
+    .p-par-funciona {
+        text-align: start;
+    }
+    /* funciona. 4section. */
+    .divs2-funciona {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .aalinhado-funciona {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .cards-3-impacto {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 70px 0;
+    }
+    .h2-preto-impacto {
+        padding: 35px 0 0 0;
+    }
+    .alianhando5-impacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .alinhando7-impacto {
+        text-align: start;
+        justify-content: start;
+        width: 50%;
+        padding: 0 20px;
+    }
+    .arrumar-impacto {
+        justify-content: start;
+    }
+    .montoramento2-impacto {
+        margin: 50px 0 0;
+        padding: 10px;
+        width: 128px;
+   }
 }
 
 /* Notebook */
@@ -1202,6 +1981,112 @@ footer p {
         max-width: 2.5rem;
         padding: 0 2px;
     }
+
+    .div1e3-funciona {
+        justify-content: center;
+        text-align: center;
+    }
+    .div2e4-funciona {
+        justify-content: center;
+        text-align: center;
+    }
+    .span2-1azul-funciona {
+        display: block;
+        color: #fff;
+        background-color: #2C6BED;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px;
+        border-radius: 25px;
+        border: 3px solid #fff;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 70px 20px 0 0;
+    }
+    .span2-2azul-funciona {
+        display: block;
+        color: #fff;
+        background-color: #2C6BED;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px;
+        border-radius: 25px;
+        border: 3px solid #fff;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 0 0 70px;
+    }
+    .span2-verde-funciona {
+        display: block;
+        color: #fff;
+        background-color: #2ECC71;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px;
+        border-radius: 25px;
+        border: 3px solid #fff;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 70px 20px 0 0;
+    }
+    .span2-4azul-funciona {
+        display: block;
+        color: #fff;
+        background-color: #2C6BED;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 2px;
+        border-radius: 25px;
+        border: 3px solid #fff;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 0 0 70px;
+    }
+    .bloco-funciona {
+        gap: 120px;
+    }
+    .div-div-funciona {
+        display: flex;
+        flex-direction: row;
+        height: 370px;
+    }
+    .cadeado-funciona {
+        width: 30%;
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    .img-section5-funciona {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin: 0;
+    }
+
+    .div333-funciona {
+        justify-content: start;
+        text-align: start;
+        margin-top: 85px;
+        width: 70%;
+    }
+    .p-p-funciona {
+        text-align: left;
+        margin: 20px 0 10px 40px;
+    }
+
+    .agora-e-tarde-impacto {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+            margin: 60px 0;
+        }
+        .agora-e-tarde-impacto {
+            gap: 300px;
+        }
 }
 
 /* Desktop grande */
