@@ -2014,7 +2014,7 @@ footer p {
 
     /* TELA LOGIN */
     .fundo_login {
-        background-image: url(/img/Fundo_login.png);
+        background-image: url(../img/Fundo_login.png);
         background-size: cover;
         background-position: right;
         width: clamp(450px, 45%, 700px);
@@ -2056,7 +2056,7 @@ footer p {
     /* TELA CADASTRE-SE */
     .fundo_cadastrar {
         display: block;
-        background-image: url(/img/Fundo_login.png);
+        background-image: url(../img/Fundo_login.png);
         background-size: cover;
         background-position: right;
         width: clamp(450px, 45%, 700px);
