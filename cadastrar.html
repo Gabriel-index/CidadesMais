@@ -8,10 +8,10 @@
     <title>Cidades +</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="teste.css">
 </head>
 <body class="main_tela_cadastrar">
     <main>
@@ -19,8 +19,13 @@
         <div class="cont-cadastrar">
             <aside class="fundo_cadastrar">
                 <div class="texto_esquerdo_cadastrar">
-                    <h1 class="h1_cadastrar">Sua voz tem <br> poder para <br> transformar a <br> cidade</h1>
-                    <h4 class="h4_cadastrar">Crie sua conta e comece a colaborar para <br> construir um futuro urbano melhor para <br> todos.</h4>
+                    <h1 class="h1_cadastrar">Sua voz tem 
+ poder para 
+ transformar a 
+ cidade</h1>
+                    <h4 class="h4_cadastrar">Crie sua conta e comece a colaborar para 
+ construir um futuro urbano melhor para 
+ todos.</h4>
                 </div>
             </aside>
             <section class="section_cadastrar">
@@ -31,7 +36,9 @@
                     <img class="img_entrar_cadastrar" src="img/entrar_google.png" alt="Entrar com Google">
                     <img class="img_entrar_cadastrar" src="img/entrar-facebook.png" alt="Entrar com Facebook">
                 </div>              
-                    <br><p class="ou_e-mail_cadastrar">OU PREENCHA SEUS DADOS</p><br>
+                    
+<p class="ou_e-mail_cadastrar">OU PREENCHA SEUS DADOS</p>
+
                 <form class="form_cadastrar" method="post">
                     <label for="name">Nome Completo</label>
                     <input placeholder="Seu nome completo" type="text" id="name" name="name" required>
@@ -41,14 +48,59 @@
                     <input placeholder="••••••••" type="password" id="senha" name="senha" required>
                     <label for="confirm_senha">Confirmar senha</label>
                     <input placeholder="••••••••" type="password" id="confirm_senha" name="confirm_senha" required>
-                    <button type="submit">Criar minha conta</button>
+                    <div class="termos-box">
+                    <input type="checkbox" id="checkboxTermos">
+                    <label for="checkboxTermos">Li e aceito os <a href="#" id="abrirModal">Termos de Uso</a></label>
+                    </div>
+                    <button type="submit" id="btnSubmit" disabled>Criar minha conta</button>
                 </form>
                 <p class="nao_tem_conta">Já possui uma conta? <a href="login.html">Entrar</a></p>
-                <p class="concorda_cadastrar">Ao se cadastrar, você concorda com nossos <a href="#">Termos de Uso</a>.</p>
             </section>
         </div>
     </main>
-    <script src="assets/script.js"></script>
+    <!-- MODAL -->
+<div id="modalTermos" class="modal">
+  <div class="modal-conteudo">
+
+    <button class="fechar" id="fecharModal">&times;</button>
+
+    <h2>Termos de Uso</h2>
+
+    <div class="modal-texto">
+
+      <h3>1. Aceitação dos Termos</h3>
+      <p>Ao utilizar este site, você concorda com estes termos.</p>
+      <p><strong>Base legal:</strong> Código Civil (Lei nº 10.406/2002).</p>
+
+      <h3>2. Uso da Plataforma</h3>
+      <p>O usuário deve utilizar o sistema de forma legal e ética.</p>
+      <p><strong>Base legal:</strong> Marco Civil da Internet (Lei nº 12.965/2014).</p>
+
+      <h3>3. Cadastro</h3>
+      <p>O usuário deve fornecer dados verdadeiros.</p>
+      <p><strong>Base legal:</strong> Código de Defesa do Consumidor (Lei nº 8.078/1990).</p>
+
+      <h3>4. Proteção de Dados</h3>
+      <p>Os dados serão tratados conforme a LGPD.</p>
+      <p><strong>Base legal:</strong> LGPD (Lei nº 13.709/2018).</p>
+
+      <h3>5. Responsabilidade</h3>
+      <p>Não nos responsabilizamos por uso indevido da plataforma.</p>
+      <p><strong>Base legal:</strong> Marco Civil da Internet.</p>
+
+      <h3>6. Direitos Autorais</h3>
+      <p>Conteúdos são protegidos por lei.</p>
+      <p><strong>Base legal:</strong> Lei nº 9.610/1998.</p>
+
+    </div>
+
+    <div class="modal-botoes">
+      <button id="btnAceito">Aceito</button>
+    </div>
+
+  </div>
+</div>
+    <script src="assets/JS.js"></script>
 </body>
 
 </html>
