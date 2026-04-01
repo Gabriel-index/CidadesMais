@@ -4,6 +4,7 @@
 * {
     font-family: 'Public Sans', sans-serif;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -108,10 +109,12 @@ li.baixar_agora {
 
 .menu {
     display: none;
+    padding: 0;
 }
 
 .menu.ativo {
     display: block;
+    padding: 0;
 }
 /* INDEX */
 /*Main*/
