@@ -17,6 +17,7 @@ a {
 
 ul,li {
     list-style: none;
+    padding: 0;
 }
 /*Header*/
 .header_index {
@@ -27,6 +28,8 @@ ul,li {
     width: 100%;
     top: 0;
     z-index: 1000;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .header_index a:hover{
@@ -1424,7 +1427,7 @@ footer p {
 }
 
 .resultados-impacto {
-    font-size: 50px;
+    font-size: 33px;
     font-weight: 900;
     max-width: 775px;
     margin: 5px auto 5px;
@@ -1521,8 +1524,8 @@ footer p {
 }
 
 .conteiner-impacto {
-    width: clamp(290px, 29%, 700px);
-    min-height: 575px;
+    width: clamp(290px, 43%, 550px);
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -1532,26 +1535,26 @@ footer p {
     margin: 40px auto;
     gap: 20px;
     padding: 0 0 25px 0;
-    box-shadow: 0px 5px 20px 0px #888888;
+    box-shadow: 0px 7px 13px 0px #888888;
 
 }
 
 .imagens-grandes-impactos{
     display: flex;
     flex-direction: row;
-    width: 50%; 
-    height: 60%;
+    width: clamp(145px, 50%, 500px);
+    height: clamp(230px, 45%, 500px);
 }
 
 .img-cell-impacto {
     width: 100%;
-    height: 100%;
+    height: 230px;
     border-radius: 30px 0 0 0;
 }
 
 .img-cell1-impacto {
     width: 100%;
-    height: 100%;
+    height: 230px;
     border-radius: 0 30px 0 0;
 }
 
@@ -1636,29 +1639,30 @@ footer p {
     font-size: 9px;
     font-weight: 500;
     border-radius: 15px;
-    padding: 3px;
+    padding: 5px 8px;
     border: 1px solid rgba(255, 255, 255, 0.573);
     margin: 50px auto 0;
     color: #fff;
     background-color: rgba(255, 255, 255, 0.227);
-    width: 90px;
+    width: 123px;
 }
 
 .h3-branco5-impacto {
-    font-size: 45px;
+    font-size: 38px;
     color: #fff;
     font-weight: 900;
 }
 
 .p-cinza3-impacto {
     color: rgba(255, 255, 255, 80%);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     max-width: 610px;
+    margin: 0 5px;
 }
 
 .arrumar-impacto {
-    margin: 10px 0;
+    margin: 10px 5px;
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -1687,7 +1691,7 @@ footer p {
 
 .img-grande26-impacto {
     width: clamp(320px, 20vw, 1000px);
-    height: clamp(467px, 20vw, 550px);
+    height: clamp(368px, 20vw, 550px);
     border-radius: 8px;
     margin: 30px auto;
 }
@@ -1710,9 +1714,9 @@ footer p {
 
 .p-cinza-impacto {
     color: #9CA3AF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 20px 10px 45px;
+    margin: 20px 10px 20px;
 }
 
 .botao-especial-impacto {
@@ -1857,7 +1861,6 @@ footer p {
 
     .cards-3-impacto {
         flex-direction: row;
-        justify-content: space-evenly;
         margin: 70px 0;
     }
     .h2-preto-impacto {
@@ -2219,6 +2222,55 @@ footer p {
         }
     .img-grande26-impacto {
         width: 550px;
+    }
+
+    .imagens-grandes-impactos {
+        width: clamp(145px, 100%, 550px);
+        height: clamp(260px, 45%, 500px);
+    }
+
+    .img-cell-impacto {
+        height: 252px;
+    }
+
+    .img-cell1-impacto {
+        height: 252px;
+    }
+
+    .tick2_sobre_nos {
+        padding: 5px 6px;
+    }
+
+    .resultados-impacto {
+        font-size: 48px;
+        font-weight: 900;
+        max-width: 10000px;
+        margin: 5px auto 5px;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .paragrafos-impacto {
+        color: white;
+        font-size: 19px;
+        font-weight: 400;
+        max-width: 777px;
+        margin: 0 auto 20px;
+        padding: 17px 5px 60px 5px;
+        text-align: center;
+    }
+
+    .cards-3-impacto {
+        justify-content: center;
+    }
+
+    .card-impacto {
+        margin: 20px 70px;
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: 200px;
+        border-radius: 30px;
     }
 }
 
