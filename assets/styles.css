@@ -656,7 +656,7 @@ li.baixar_agora {
     font-size: 2.5rem;
     font-weight: 900;
     color: #2F3640;
-    margin: 0;
+    margin: 103px 0 0 0;;
 }
 
 .acessar_sua_conta {
@@ -785,7 +785,7 @@ li.baixar_agora {
     font-size: 2.5rem;
     font-weight: 900;
     color: #2F3640;
-    margin: 0;
+    margin: 103px 0 0 0;
 }
 
 .acessar_sua_conta {
@@ -1757,6 +1757,14 @@ footer p {
     /* TELA LOGIN  */
     .texto_esquerdo_login {
         display: none !important; 
+    }
+
+    .h2_entrar_login {
+        margin: 65px 0 0 0;
+    }
+
+    .h2_entrar_cadastrar {
+        margin: 65px 0 0 0;
     }
 
     .section_login {
