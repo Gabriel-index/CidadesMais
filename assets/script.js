@@ -33,3 +33,25 @@ menuIcon.addEventListener("click", () => {
     menu.classList.toggle("ativo");
 });
 
+const btnCidadao = document.getElementById('btn_cidadao');
+const btnPrefeitura = document.getElementById('btn_prefeitura');
+const camposCidadao = document.getElementById('campos_cidadao');
+const camposPrefeitura = document.getElementById('campos_prefeitura');
+
+function alternarTipoConta(tipo) {
+    const ehCidadao = tipo === 'cidadao';
+
+    btnCidadao.classList.toggle('ativo', ehCidadao);
+    btnPrefeitura.classList.toggle('ativo', !ehCidadao);
+
+    camposCidadao.style.display = ehCidadao ? 'block' : 'none';
+    camposPrefeitura.style.display = ehCidadao ? 'none' : 'block';
+
+    // evita que campos escondidos bloqueiem o envio do form
+    document.getElementById('name').required = ehCidadao;
+    document.getElementById('email').required = ehCidadao;
+    document.getElementById('bairro').required = ehCidadao;
+}
+
+btnCidadao.addEventListener('click', () => alternarTipoConta('cidadao'));
+btnPrefeitura.addEventListener('click', () => alternarTipoConta('prefeitura'));

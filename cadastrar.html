@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
@@ -52,22 +53,39 @@
                 <!--Lado direito-->
                 <h2 class="h2_entrar_cadastrar">Criar conta</h2>
                 <p class="acessar_sua_conta">Preencha os dados abaixo para começar sua jornada.</p>
-                <div class="botoes_entrar_cadastrar">
-                    <img class="img_entrar_cadastrar" src="img/entrar_google.png" alt="Entrar com Google">
-                    <img class="img_entrar_cadastrar" src="img/entrar-facebook.png" alt="Entrar com Facebook">
+                <div class="toggle_tipo_conta">
+                    <button type="button" class="btn_toggle_tipo ativo" id="btn_cidadao" data-tipo="cidadao">👤 Sou
+                        cidadão</button>
+                    <button type="button" class="btn_toggle_tipo" id="btn_prefeitura" data-tipo="prefeitura">🏛 Sou
+                        prefeitura</button>
                 </div>
 
-                <p class="ou_e-mail_cadastrar">OU PREENCHA SEUS DADOS</p>
 
                 <form class="form_cadastrar" method="post">
-                    <label for="name">Nome Completo</label>
-                    <input placeholder="Seu nome completo" type="text" id="name" name="name" required>
-                    <label for="email">E-mail</label>
-                    <input placeholder="seu@email.com" type="email" id="email" name="email" required>
+
+                    <div id="campos_cidadao" class="grupo_campos_cadastrar">
+                        <label for="name">Nome Completo</label>
+                        <input placeholder="Seu nome completo" type="text" id="name" name="name" required>
+                        <label for="email">E-mail</label>
+                        <input placeholder="seu@email.com" type="email" id="email" name="email" required>
+                        <label for="cep">CEP</label>
+                        <input placeholder="Seu CEP" type="number" id="cep" name="cep" required>
+                    </div>
+
+                    <div id="campos_prefeitura" class="grupo_campos_cadastrar" style="display:none;">
+                        <label for="orgao">Nome do órgão</label>
+                        <input placeholder="Ex: Prefeitura de São Paulo" type="text" id="orgao" name="orgao">
+                        <label for="cnpj">CNPJ</label>
+                        <input placeholder="00.000.000/0000-00" type="text" id="cnpj" name="cnpj">
+                        <label for="email_pref">E-mail institucional</label>
+                        <input placeholder="contato@prefeitura.gov.br" type="email" id="email_pref" name="email_pref">
+                    </div>
+
                     <label for="senha">Senha</label>
                     <input placeholder="••••••••" type="password" id="senha" name="senha" required>
                     <label for="confirm_senha">Confirmar senha</label>
                     <input placeholder="••••••••" type="password" id="confirm_senha" name="confirm_senha" required>
+
                     <div class="termos-box">
                         <input type="checkbox" id="checkboxTermos">
                         <label for="checkboxTermos">Li e aceito os <a href="#" id="abrirModal">Termos de Uso</a></label>
