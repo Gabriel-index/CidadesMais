@@ -1443,6 +1443,342 @@ footer p {
     border-color: #2C6BED;
 }
 
+.main_perfil_prefeitura {
+    background-color: #F8FAFC;
+    padding: 8px 15px 40px;
+}
+
+.main_perfil_prefeitura > * {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* o ícone global tem margin-top e display block (usado no menu do header) */
+.main_perfil_prefeitura .material-symbols-outlined {
+    margin-top: 0;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.main_perfil_prefeitura a:focus-visible,
+.main_perfil_prefeitura button:focus-visible,
+.main_perfil_prefeitura input:focus-visible {
+    outline: 2px solid #2C6BED;
+    outline-offset: 2px;
+}
+
+/* Breadcrumb */
+.breadcrumb_perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 14px 0;
+    font-size: 12px;
+    color: #4E6797;
+}
+
+.lista_breadcrumb_perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista_breadcrumb_perfil li + li::before {
+    content: "/";
+    margin-right: 8px;
+    color: #9CA3AF;
+}
+
+.lista_breadcrumb_perfil a,
+.voltar_painel_perfil {
+    color: #4E6797;
+}
+
+.lista_breadcrumb_perfil a:hover,
+.voltar_painel_perfil:hover {
+    color: #2C6BED;
+}
+
+.lista_breadcrumb_perfil li[aria-current="page"] {
+    color: #2F3640;
+    font-weight: 700;
+}
+
+.voltar_painel_perfil {
+    font-weight: 700;
+    color: #2C6BED;
+}
+
+.voltar_painel_perfil .material-symbols-outlined {
+    font-size: 14px;
+}
+
+/* Painéis (cards brancos) */
+.painel_perfil {
+    background-color: white;
+    border: 1px solid #E7EBF3;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Identidade */
+.identidade_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.avatar_prefeitura {
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #2C6BED;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.avatar_prefeitura .selo_avatar_prefeitura {
+    position: absolute;
+    right: -8px;
+    bottom: -8px;
+    padding: 4px;
+    border: 1px solid #E7EBF3;
+    border-radius: 50%;
+    background-color: white;
+    color: #2C6BED;
+    font-size: 14px;
+}
+
+.titulo_perfil {
+    margin: 0 0 8px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #2F3640;
+}
+
+.selo_vinculado_perfil {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 8px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background-color: rgba(46, 204, 113, 0.12);
+    color: #1E8449;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.selo_vinculado_perfil .material-symbols-outlined {
+    font-size: 14px;
+}
+
+.meta_perfil {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #4E6797;
+}
+
+.status_operacional_perfil {
+    padding: 12px 16px;
+    border: 1px solid rgba(46, 204, 113, 0.35);
+    border-radius: 12px;
+    background-color: rgba(46, 204, 113, 0.1);
+}
+
+.rotulo_status_perfil {
+    margin: 0 0 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4E6797;
+}
+
+.texto_status_perfil {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1E8449;
+}
+
+.texto_status_perfil::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #2ECC71;
+}
+
+/* Cabeçalho de painel / seção */
+.cabecalho_painel_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.titulo_painel_perfil {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: #2F3640;
+}
+
+.titulo_painel_perfil .material-symbols-outlined {
+    color: #2C6BED;
+}
+
+.subtitulo_painel_perfil {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #4E6797;
+}
+
+.tag_perfil {
+    align-self: flex-start;
+    margin: 0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background-color: #EEF2F8;
+    color: #4E6797;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.link_relatorios_perfil {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2C6BED;
+}
+
+.link_relatorios_perfil:hover {
+    color: #5b8ae9;
+}
+
+/* Formulário (reaproveita .grupo_campos_cadastrar) */
+.form_perfil {
+    margin-top: 20px;
+}
+
+.form_perfil .grupo_campos_cadastrar {
+    margin-bottom: 14px;
+}
+
+.form_perfil .grupo_campos_cadastrar label {
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.form_perfil .grupo_campos_cadastrar input {
+    max-width: none;
+    margin: 6px 0;
+    padding: 12px 14px 12px 42px;
+    font-size: 14px;
+    color: #2F3640;
+}
+
+.form_perfil .grupo_campos_cadastrar input:read-only {
+    background-color: #F2F4F7;
+    color: #6B7280;
+}
+
+.campo_icone_perfil {
+    position: relative;
+    display: block;
+}
+
+.campo_icone_perfil .material-symbols-outlined {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9CA3AF;
+    pointer-events: none;
+}
+
+.dica_campo_perfil {
+    font-size: 12px;
+    color: #6B7280;
+}
+
+.linha_campos_perfil {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.acoes_form_perfil {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #E7EBF3;
+}
+
+.mensagem_status_perfil {
+    margin: 0 auto 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1E8449;
+}
+
+.btn_secundario_perfil,
+.btn_primario_perfil,
+.btn_comunicado_perfil {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn_secundario_perfil {
+    border: 1px solid #E5E7EB;
+    background-color: white;
+    color: #2F3640;
+}
+
+.btn_primario_perfil {
+    border: none;
+    background-color: #2C6BED;
+    color: white;
+}
+
+.btn_primario_perfil:hover:not(:disabled) {
+    background-color: #5b8ae9;
+}
+
+.btn_secundario_perfil:disabled,
+.btn_primario_perfil:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 
 /* Tablet pequeno */
 @media (min-width: 480px) {
@@ -1498,7 +1834,22 @@ footer p {
     .p-cinza3-impacto {
         margin: 20px auto;
     }
+
+    .main_perfil_prefeitura {
+        padding: 8px 25px 50px;
+    }
+
+    .identidade_perfil {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .dados_identidade_perfil {
+        flex: 1 1 260px;
+    }
 }
+
 /* Tablet */
 @media (min-width: 768px) {
     .p_tec {
@@ -1604,6 +1955,18 @@ footer p {
     text-align: left;
     margin: 0;
    }
+
+   @media (min-width: 768px) {
+    .cabecalho_painel_perfil {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .linha_campos_perfil {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 /* Notebook */
@@ -1986,6 +2349,13 @@ footer p {
         height: 200px;
         border-radius: 30px;
     }
+    .painel_perfil {
+        padding: 28px;
+    }
+
+    .status_operacional_perfil {
+        align-self: center;
+    }   
 }
 
 /* Desktop grande */
@@ -2048,4 +2418,5 @@ footer p {
     .texto_esquerdo_cadastrar {
         padding: 0 10px 115px 45px;
     }
+}
 }
