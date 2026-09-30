@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="assets/ocorrencia.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -23,7 +22,7 @@
         </div>
             <nav>
                 <ul class="menu">
-                    <li class="pg_atual"><a href="index.html">Início</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="como-funciona.html">Como funciona</a></li>
                     <li><a href="sobre_nos.html">Sobre nós</a></li>
                     <li class="entrar_botao_index"><a href="login.html">Entrar</a></li>
@@ -34,7 +33,7 @@
 
     <main class="ocorrencia_principal">
         <div class="ocorrencia_navegacao_sec">
-            <a class="ocorrencia_voltar" href="#"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar ao Feed</a>
+            <a class="ocorrencia_voltar" href="#"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>Voltar ao Início</a>
             <span>Ocorrência #URB-4089</span>
         </div>
 
@@ -49,7 +48,7 @@
                     <h1 class="ocorrencia_titulo">Buraco profundo provocando acidentes no cruzamento</h1>
                     <p class="ocorrencia_local"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Rua Teodoro Sampaio c/ Fradique Coutinho, Pinheiros</p>
                     <div class="ocorrencia_imagem">
-                        <img src="img/buraco_asfalto.jpg" alt="Buraco profundo no asfalto molhado, em um cruzamento com trânsito">
+                        <img src="img/exemplo_ocorrencia.png" alt="Buraco profundo no asfalto molhado, em um cruzamento com trânsito">
                     </div>
                     <h2 class="ocorrencia_rotulo">RELATO</h2>
                     <p class="ocorrencia_texto">Asfalto cedeu após fortes chuvas recentes, gerando risco iminente para motociclistas e ciclistas. Dois veículos já tiveram pneus danificados no cruzamento nesta manhã.</p>
@@ -85,20 +84,6 @@
                     </ol>
                 </section>
 
-                <section class="ocorrencia_card" aria-labelledby="titulo_comentarios">
-                    <div class="ocorrencia_cabecalho_card">
-                        <h3 class="ocorrencia_titulo_card" id="titulo_comentarios">Comentários da Comunidade</h3>
-                        <span class="ocorrencia_secundario">2 relatos</span>
-                    </div>
-                    <div class="ocorrencia_comentario">
-                        <div class="ocorrencia_comentario_topo"><strong>Marcos Ribeiro</strong><span>há 45 min</span></div>
-                        <p>Colocamos um cavalete para alertar os motoristas no cruzamento. Muito perigoso!</p>
-                    </div>
-                    <div class="ocorrencia_comentario">
-                        <div class="ocorrencia_comentario_topo"><strong>Luciana Miranda</strong><span>há 1h</span></div>
-                        <p>Apoio total para que o recapeamento aconteça ainda hoje!</p>
-                    </div>
-                </section>
             </div>
 
             <aside class="ocorrencia_coluna_dir">
@@ -125,11 +110,10 @@
                         <a class="ocorrencia_link_azul" href="#">Pinheiros</a>
                     </div>
                     <div class="ocorrencia_mapa">
-                        <img src="img/mapa_pinheiros.png" alt="Mapa da região de Pinheiros com marcador no cruzamento">
-                        <span class="material-symbols-outlined ocorrencia_mapa_pino" aria-hidden="true">location_on</span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.211989308566!2d-46.685847324669886!3d-23.56082867880022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce579c6f9a52f1%3A0x621c655b31d9f218!2sR.%20Teodoro%20Sampaio%2C%201420%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005406-000!5e0!3m2!1spt-BR!2sbr!4v1790787869905!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                     <p class="ocorrencia_endereco">Rua Teodoro Sampaio, 1420 (cruzamento com Fradique Coutinho)</p>
-                    <a class="ocorrencia_btn_mapa" href="#"><span class="material-symbols-outlined" aria-hidden="true">map</span>Ver no mapa</a>
+                    <a class="ocorrencia_btn_mapa" href="https://www.google.com/maps/place/R.+Teodoro+Sampaio,+1420+-+Pinheiros,+S%C3%A3o+Paulo+-+SP,+05406-000/@-23.5608287,-46.6858473,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce579c6f9a52f1:0x621c655b31d9f218!8m2!3d-23.5608287!4d-46.6832724?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D" target="_blank"><span class="material-symbols-outlined" aria-hidden="true">map</span>Ver no mapa</a>
                 </section>
             </aside>
         </div>
@@ -137,6 +121,5 @@
 
     <div class="ocorrencia_toast" id="toast" role="status" aria-live="polite"></div>
     <script src="assets/script.js"></script>
-    <script src="assets/ocorrencia.js"></script>
 </body>
 </html>

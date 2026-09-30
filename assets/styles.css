@@ -1779,6 +1779,459 @@ footer p {
     cursor: not-allowed;
 }
 
+.ocorrencia_principal {
+    margin-top: 60px;
+    padding: 8px 16px 40px;
+    background-color: #F8FAFC;
+}
+
+.ocorrencia_principal > * {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* o ícone global do styles.css tem margin-top e display block (usado no menu do header) */
+.ocorrencia_principal .material-symbols-outlined {
+    margin-top: 0;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+/* Navegação secundária */
+.ocorrencia_navegacao_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 13px;
+    color: #4E6797;
+}
+
+.ocorrencia_voltar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #2C6BED;
+    font-weight: 700;
+}
+
+/* Colunas */
+.ocorrencia_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ocorrencia_coluna_esq,
+.ocorrencia_coluna_dir {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ocorrencia_coluna_dir {
+    order: -1;
+}
+
+/* Cards */
+.ocorrencia_card {
+    padding: 18px;
+    background-color: white;
+    border: 1px solid #E7EBF3;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.ocorrencia_cabecalho_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.ocorrencia_titulo_card {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E121B;
+}
+
+.ocorrencia_titulo_pequeno {
+    font-size: 14px;
+}
+
+.ocorrencia_secundario {
+    font-size: 13px;
+    color: #4E6797;
+}
+
+/* Card 1 - Detalhes do problema */
+.ocorrencia_meta_topo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: #4E6797;
+}
+
+.ocorrencia_badge_status {
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: rgba(241, 196, 15, 0.18);
+    color: #2F3640;
+    font-weight: 700;
+}
+
+.ocorrencia_badge_status::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background-color: #F1C40F;
+}
+
+.ocorrencia_tempo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ocorrencia_tempo .material-symbols-outlined {
+    font-size: 16px;
+    color: #2ECC71;
+}
+
+.ocorrencia_titulo {
+    margin: 16px 0 12px;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #0E121B;
+}
+
+.ocorrencia_local {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    font-size: 14px;
+    color: #4E6797;
+}
+
+.ocorrencia_local .material-symbols-outlined {
+    font-size: 18px;
+}
+
+.ocorrencia_imagem {
+    margin: 20px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #E7EBF3;
+}
+
+.ocorrencia_imagem img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.ocorrencia_rotulo {
+    margin: 0 0 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #4E6797;
+}
+
+.ocorrencia_texto {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F3640;
+}
+
+/* Card 2 - Progresso do atendimento */
+.ocorrencia_timeline {
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ocorrencia_etapa {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.ocorrencia_etapa:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 23px;
+    top: 40px;
+    bottom: -12px;
+    width: 2px;
+    background-color: #E7EBF3;
+}
+
+.ocorrencia_etapa_icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #E7EBF3;
+    color: white;
+}
+
+.ocorrencia_etapa_icone .material-symbols-outlined {
+    font-size: 16px;
+}
+
+.ocorrencia_etapa_texto {
+    flex: 1;
+}
+
+.ocorrencia_etapa_texto strong {
+    font-size: 14px;
+    color: #0E121B;
+}
+
+.ocorrencia_etapa_texto p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: #4E6797;
+}
+
+.ocorrencia_etapa_hora {
+    font-size: 12px;
+    color: #4E6797;
+    white-space: nowrap;
+}
+
+.ocorrencia_etapa.concluida .ocorrencia_etapa_icone {
+    background-color: #2ECC71;
+}
+
+.ocorrencia_etapa.atual {
+    background-color: rgba(44, 107, 237, 0.08);
+}
+
+.ocorrencia_etapa.atual .ocorrencia_etapa_icone {
+    background-color: #2C6BED;
+}
+
+.ocorrencia_etapa.atual .ocorrencia_etapa_texto strong,
+.ocorrencia_etapa.atual .ocorrencia_etapa_hora {
+    color: #2C6BED;
+    font-weight: 700;
+}
+
+.ocorrencia_etapa.pendente .ocorrencia_etapa_texto strong {
+    color: #4E6797;
+    font-weight: 500;
+}
+
+/* Card 3 - Comentários */
+.ocorrencia_comentario {
+    margin-bottom: 12px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background-color: #F8FAFC;
+}
+
+.ocorrencia_comentario:last-child {
+    margin-bottom: 0;
+}
+
+.ocorrencia_comentario_topo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.ocorrencia_comentario_topo strong {
+    color: #0E121B;
+}
+
+.ocorrencia_comentario_topo span {
+    color: #4E6797;
+}
+
+.ocorrencia_comentario p {
+    margin: 6px 0 0;
+    font-size: 15px;
+    color: #2F3640;
+}
+
+/* Card A - Engajamento */
+.ocorrencia_apoio_topo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.ocorrencia_apoio_icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: rgba(44, 107, 237, 0.1);
+    color: #2C6BED;
+}
+
+.ocorrencia_apoio_icone .material-symbols-outlined {
+    font-size: 26px;
+}
+
+.ocorrencia_apoio_contagem {
+    margin: 0;
+    font-size: 14px;
+    color: #4E6797;
+}
+
+.ocorrencia_apoio_contagem strong {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0E121B;
+}
+
+.ocorrencia_apoio_relevancia {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2ECC71;
+}
+
+.ocorrencia_btn_primario,
+.ocorrencia_btn_secundario,
+.ocorrencia_btn_mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ocorrencia_btn_primario {
+    border: none;
+    background-color: #2C6BED;
+    color: white;
+    font-weight: 700;
+}
+
+.ocorrencia_btn_primario:hover {
+    background-color: #5b8ae9;
+}
+
+.ocorrencia_btn_primario.apoiado {
+    background-color: #2ECC71;
+    cursor: default;
+}
+
+.ocorrencia_btn_secundario {
+    margin-top: 10px;
+    border: 1px solid #E7EBF3;
+    background-color: #F2F4F7;
+    color: #2F3640;
+    font-weight: 500;
+}
+
+.ocorrencia_btn_secundario:hover {
+    background-color: #E7EBF3;
+}
+
+/* Card B - Localização */
+.ocorrencia_link_azul {
+    font-size: 13px;
+    font-weight: 700;
+    color: #2C6BED;
+}
+
+.ocorrencia_mapa {
+    position: relative;
+    height: 180px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #E7EBF3;
+}
+
+.ocorrencia_mapa img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ocorrencia_mapa .ocorrencia_mapa_pino {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    font-size: 36px;
+    color: #E74C3C;
+    font-variation-settings: 'FILL' 1;
+}
+
+.ocorrencia_endereco {
+    margin: 14px 0;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4E6797;
+}
+
+.ocorrencia_btn_mapa {
+    background-color: rgba(44, 107, 237, 0.1);
+    color: #2C6BED;
+    font-weight: 700;
+}
+
+.ocorrencia_btn_mapa:hover {
+    background-color: rgba(44, 107, 237, 0.18);
+}
+
+/* Toast */
+.ocorrencia_toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1100;
+    width: max-content;
+    max-width: 90%;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: #0E121B;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.ocorrencia_toast.visivel {
+    opacity: 1;
+}
 
 /* Tablet pequeno */
 @media (min-width: 480px) {
@@ -1956,7 +2409,6 @@ footer p {
     margin: 0;
    }
 
-   @media (min-width: 768px) {
     .cabecalho_painel_perfil {
         flex-direction: row;
         justify-content: space-between;
@@ -1966,6 +2418,43 @@ footer p {
     .linha_campos_perfil {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+    
+    }
+
+    .ocorrencia_principal {
+        padding: 8px 24px 48px;
+    }
+
+    .ocorrencia_grid {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .ocorrencia_coluna_esq {
+        width: 68%;
+    }
+
+    .ocorrencia_coluna_dir {
+        order: 0;
+        width: 32%;
+        position: sticky;
+        top: 88px;
+    }
+
+    .ocorrencia_card {
+        padding: 24px;
+    }
+
+    .ocorrencia_titulo {
+        font-size: 32px;
+    }
+
+    .ocorrencia_tempo {
+        margin-left: auto;
+    }
+
+    .ocorrencia_imagem img {
+        height: 260px;
     }
 }
 
@@ -2356,6 +2845,10 @@ footer p {
     .status_operacional_perfil {
         align-self: center;
     }   
+
+    .ocorrencia_imagem img {
+        height: 400px;
+    }
 }
 
 /* Desktop grande */
@@ -2418,5 +2911,4 @@ footer p {
     .texto_esquerdo_cadastrar {
         padding: 0 10px 115px 45px;
     }
-}
 }
