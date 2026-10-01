@@ -1,4 +1,4 @@
-# 🌆 Cidades+
+# 🌆 Cidades+ | Front-End
 
 **Tecnologia que resolve o que a cidade precisa.**
 
